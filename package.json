@@ -6,7 +6,9 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "deploy": "git add . && git commit -a --allow-empty-message -m '' && git push origin main",
+        "heroku-postbuild": "npm run build"
     },
     "dependencies": {
         "next": "12.2.1",

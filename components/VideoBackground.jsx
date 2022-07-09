@@ -21,7 +21,6 @@ export default function VideoBackground() {
             className={styles.background}
             style={{ transform: `translateY(-${bottom}vh)` }}>
             <video src="/videoBg.mp4" autoPlay muted></video>
-            <img src="/untitled.png" alt="Background" />
 
             <div className={styles.arrowDown}></div>
         </div>
