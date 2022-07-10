@@ -20,8 +20,6 @@ export default function Home() {
 
             <div className={styles.mainPage}>
                 <Loader />
-
-                <h1>CIAOOO</h1>
             </div>
         </div>
     );
