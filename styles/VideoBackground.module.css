@@ -82,7 +82,5 @@
         var(--light-blue)
     );
     transform-origin: bottom right;
-
-    /* ciao */
     transform: rotate(-45deg) translateX(calc(1em + 3px));
 }
