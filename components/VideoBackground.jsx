@@ -23,6 +23,7 @@ export default function VideoBackground() {
             <video autoPlay muted playsInline>
                 <source src="/videoBgCompressed2.mp4" type="video/mp4" />
                 <source src="/videoBgCompressed2.webm" type="video/webm" />
+                <source src="/masthead-bg.m4v" type="video/mp4" />
 
                 {/* <source src="/masthead-bg.m4v" type="video/mp4; codecs=hvc1" />
                 <source src="/masthead-bg.webm" type="video/webm; codecs=vp9" />
