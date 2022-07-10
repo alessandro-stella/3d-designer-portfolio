@@ -20,14 +20,10 @@ export default function VideoBackground() {
         <div
             className={styles.background}
             style={{ transform: `translateY(-${bottom}vh)` }}>
-            <video autoPlay muted playsInline>
-                <source src="/videoBgCompressed2.mp4" type="video/mp4" />
-                <source src="/videoBgCompressed2.webm" type="video/webm" />
-                <source src="/masthead-bg.m4v" type="video/mp4" />
-
-                {/* <source src="/masthead-bg.m4v" type="video/mp4; codecs=hvc1" />
-                <source src="/masthead-bg.webm" type="video/webm; codecs=vp9" />
-                <source src="/masthead-bg.mp4" type="video/mp4" /> */}
+            <video autoPlay muted playsInline loop>
+                <source src="/videoBg.mp4" type="video/mp4" />
+                <source src="/videoBg.webm" type="video/webm" />
+                <source src="/videoBg.m4v" type="video/mp4" />
             </video>
 
             <div className={styles.arrowDown}></div>
