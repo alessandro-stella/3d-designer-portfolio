@@ -20,7 +20,7 @@ export default function VideoBackground() {
         <div
             className={styles.background}
             style={{ transform: `translateY(-${bottom}vh)` }}>
-            <video autoPlay muted>
+            <video autoPlay muted playsInline>
                 <source src="/videoBgCompressed2.mp4" type="video/mp4" />
                 {/* <source src="/videoBg.webm" type="video/webm; codecs=vp9" /> */}
             </video>
