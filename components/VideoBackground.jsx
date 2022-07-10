@@ -21,9 +21,13 @@ export default function VideoBackground() {
             className={styles.background}
             style={{ transform: `translateY(-${bottom}vh)` }}>
             <video autoPlay muted playsInline loop disableRemotePlayback>
-                <source src="/videoBg.mp4" type="video/mp4" />
+                {/* <source src="/videoBg.mp4" type="video/mp4" />
                 <source src="/videoBg.webm" type="video/webm" />
-                <source src="/videoBg.m4v" type="video/mp4" />
+                <source src="/videoBg.m4v" type="video/mp4" /> */}
+
+                <source src="/Test30fpsCompressed.mp4" type="video/mp4" />
+                <source src="/Test30fpsCompressed.webm" type="video/webm" />
+                <source src="/Test30fpsCompressed.m4v" type="video/mp4" />
             </video>
 
             <div className={styles.arrowDown}></div>
