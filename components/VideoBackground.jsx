@@ -20,7 +20,7 @@ export default function VideoBackground() {
         <div
             className={styles.background}
             style={{ transform: `translateY(-${bottom}vh)` }}>
-            <video autoPlay muted playsInline loop>
+            <video autoPlay muted playsInline loop disableRemotePlayback>
                 <source src="/videoBg.mp4" type="video/mp4" />
                 <source src="/videoBg.webm" type="video/webm" />
                 <source src="/videoBg.m4v" type="video/mp4" />
