@@ -42,6 +42,8 @@
     animation-fill-mode: forwards;
 
     opacity: 0;
+
+    filter: drop-shadow(0 0 1em var(--green));
 }
 
 @keyframes fadeIn {
@@ -63,24 +65,18 @@
 
     position: absolute;
     border-radius: 100vh;
+
+    background-color: var(--green);
 }
 
 .arrowDown::before {
-    background-image: linear-gradient(
-        to left,
-        var(--mint-green),
-        var(--light-blue)
-    );
+    background-image: linear-gradient(to left, var(--green), var(--blue));
     transform-origin: bottom left;
     transform: rotate(45deg) translateX(calc(-1em - 3px));
 }
 
 .arrowDown::after {
-    background-image: linear-gradient(
-        to right,
-        var(--mint-green),
-        var(--light-blue)
-    );
+    background-image: linear-gradient(to right, var(--green), var(--blue));
     transform-origin: bottom right;
     transform: rotate(-45deg) translateX(calc(1em + 3px));
 }

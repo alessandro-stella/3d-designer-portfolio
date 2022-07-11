@@ -1,0 +1,15 @@
+.main {
+    height: 300vh;
+    background-color: var(--light-blue);
+}
+
+.section,
+.isNotOnScreen {
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+.isOnScreen {
+    background-color: red;
+    position: sticky;
+}

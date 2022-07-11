@@ -1,25 +1,23 @@
 import { useEffect, useRef, useState } from "react";
+import { useSiteContext } from "../SiteContext";
 import styles from "../styles/VideoBackground.module.css";
 
 export default function VideoBackground() {
     const [bottom, setBottom] = useState(0);
     const videoRef = useRef(null);
+    const scrollY = useSiteContext();
 
     useEffect(() => {
         setTimeout(() => {
             videoRef.current.play();
         }, 500);
-
-        const parallaxEffect = () => {
-            setBottom(Math.floor(window.scrollY / 20));
-        };
-
-        window.addEventListener("scroll", parallaxEffect);
-
-        return () => {
-            window.removeEventListener("scroll", parallaxEffect);
-        };
     }, []);
+
+    useEffect(() => {
+        if (scrollY / 20 < 50) {
+            setBottom(Math.floor(scrollY / 20));
+        }
+    }, [scrollY]);
 
     return (
         <div

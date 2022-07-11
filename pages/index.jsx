@@ -2,6 +2,9 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 import VideoBackground from "../components/VideoBackground";
+import PersonalInfo from "../components/PersonalInfo";
+import Works from "../components/Works";
+import ContactMe from "../components/ContactMe";
 import Loader from "../components/Loader";
 
 export default function Home() {
@@ -19,7 +22,9 @@ export default function Home() {
             <VideoBackground />
 
             <div className={styles.mainPage}>
-                <Loader />
+                <PersonalInfo />
+                <Works />
+                <ContactMe />
             </div>
         </div>
     );

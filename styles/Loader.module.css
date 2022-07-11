@@ -17,7 +17,7 @@
     content: "";
     display: block;
     border: 2em solid transparent;
-    border-top-color: var(--mint-green);
+    border-top-color: var(--green);
     position: absolute;
     left: 0;
     top: 0;
@@ -25,7 +25,7 @@
 }
 
 .loader:before {
-    border-color: transparent transparent transparent var(--light-blue);
+    border-color: transparent transparent transparent var(--blue);
     animation-delay: 0.5s;
 }
 

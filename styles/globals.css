@@ -15,11 +15,12 @@ body {
 }
 
 :root {
-    --mint-green: hsl(166, 100%, 50%);
-    --light-blue: hsl(180, 100%, 55%);
+    --green: #00ffc3;
+    --blue: #1affff;
 
     --dark-green: hsl(166, 100%, 2%);
     --dark-blue: hsl(180, 100%, 2%);
 
-    --text-color: hsl(166, 100%, 95%);
+    --light-green: hsl(166, 100%, 95%);
+    --light-blue: hsl(180, 100%, 95%);
 }
