@@ -7,9 +7,11 @@
 .isNotOnScreen {
     background-color: blueviolet;
     height: 100vh;
+
+    position: sticky;
+    top: 0;
 }
 
 .isOnScreen {
     background-color: red;
-    position: sticky;
 }

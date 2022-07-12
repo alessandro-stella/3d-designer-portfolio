@@ -6,10 +6,16 @@ import {
     useState,
 } from "react";
 
-const Context = createContext({ scrollY: 0 });
+const Context = createContext({ scrollY: "initial" });
 
 export function SiteContext({ children }) {
-    const [scrollY, setScrollY] = useState(0);
+    const [scrollY, setScrollY] = useState("initial");
+
+    useEffect(() => {
+        if (scrollY === "initial") {
+            setScrollY(window.scrollY);
+        }
+    }, [scrollY]);
 
     const handleScroll = useCallback(() => {
         setScrollY(window.scrollY);
