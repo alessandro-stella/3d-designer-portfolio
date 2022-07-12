@@ -3,6 +3,7 @@
 }
 
 .mainPage {
+    height: 500vh;
     width: 100%;
 
     position: relative;

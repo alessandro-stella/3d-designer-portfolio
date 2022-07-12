@@ -1,4 +1,7 @@
 .main {
     height: 100vh;
     background-color: var(--dark-green);
+    color: var(--light-green);
+
+    padding: 1em;
 }
