@@ -11,14 +11,12 @@ export default function WorkSection({ index, opacity }) {
 
     return (
         <div className={styles.section} style={{ opacity }}>
-            <div className={styles.head}>
-                <h1>{sectionData.title}</h1>
-            </div>
+            <div className={styles.head}>{sectionData.title}</div>
 
             <div className={styles.body}>
                 <div
                     className={styles.image}
-                    style={{ backgroundImage: `url(${sectionData.image})` }}
+                    style={{ backgroundImage: `url("${sectionData.image}")` }}
                 />
             </div>
         </div>
