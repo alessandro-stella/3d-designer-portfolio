@@ -16,7 +16,7 @@ export default function Works() {
             return;
         }
 
-        if (scrollY >= window.innerHeight * 1.3) {
+        if (scrollY >= window.innerHeight) {
             checkOpacities(scrollY / innerHeight);
         }
     }, []);
@@ -26,30 +26,26 @@ export default function Works() {
             return;
         }
 
-        if (scrollY >= window.innerHeight * 1.3) {
+        if (scrollY >= window.innerHeight) {
             checkOpacities(scrollY / innerHeight);
         }
     }, [scrollY]);
 
-    useEffect(() => {
-        console.log(section1Opacity);
-    }, [section1Opacity]);
-
     function checkOpacities(ratio) {
-        if (ratio < 2) {
-            setSection1Opacity((ratio - 1).toFixed(3));
+        if (ratio < 2.1) {
+            setSection1Opacity((ratio - 1.1).toFixed(3));
             return;
         }
 
-        if (ratio < 3) {
-            setSection1Opacity((1 - (ratio - 2)).toFixed(3));
-            setSection2Opacity((ratio - 2).toFixed(3));
+        if (ratio < 3.2) {
+            setSection1Opacity((1 - (ratio - 2.2)).toFixed(3));
+            setSection2Opacity((ratio - 2.2).toFixed(3));
             return;
         }
 
-        if (ratio < 4) {
-            setSection2Opacity((1 - (ratio - 3)).toFixed(3));
-            setSection3Opacity((ratio - 3).toFixed(3));
+        if (ratio < 4.2) {
+            setSection2Opacity((1 - (ratio - 3.2)).toFixed(3));
+            setSection3Opacity((ratio - 3.2).toFixed(3));
             return;
         }
 

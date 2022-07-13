@@ -3,7 +3,6 @@
     position: relative;
 
     background-attachment: fixed;
-    pointer-events: none;
 }
 
 .backgroundContainer {
@@ -77,6 +76,19 @@
     padding: 1em;
 
     color: var(--dark-green);
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 1em;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 0 0.25em var(--dark-green);
 }
 
 @media screen and (max-width: 800px) {
