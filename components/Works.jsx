@@ -26,26 +26,26 @@ export default function Works() {
             return;
         }
 
-        if (scrollY >= window.innerHeight) {
+        if (scrollY >= window.innerHeight * 1.2) {
             checkOpacities(scrollY / innerHeight);
         }
     }, [scrollY]);
 
     function checkOpacities(ratio) {
-        if (ratio < 2.1) {
-            setSection1Opacity((ratio - 1.1).toFixed(3));
+        if (ratio < 2.2) {
+            setSection1Opacity((ratio - 1.2).toFixed(3));
             return;
         }
 
-        if (ratio < 3.2) {
-            setSection1Opacity((1 - (ratio - 2.2)).toFixed(3));
-            setSection2Opacity((ratio - 2.2).toFixed(3));
+        if (ratio < 3.3) {
+            setSection1Opacity((1 - (ratio - 2.3)).toFixed(3));
+            setSection2Opacity((ratio - 2.3).toFixed(3));
             return;
         }
 
-        if (ratio < 4.2) {
-            setSection2Opacity((1 - (ratio - 3.2)).toFixed(3));
-            setSection3Opacity((ratio - 3.2).toFixed(3));
+        if (ratio < 4.4) {
+            setSection2Opacity((1 - (ratio - 3.4)).toFixed(3));
+            setSection3Opacity((ratio - 3.4).toFixed(3));
             return;
         }
 
