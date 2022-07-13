@@ -32,24 +32,58 @@ export default function Works() {
     }, [scrollY]);
 
     function checkOpacities(ratio) {
+        let opacity = 1;
+
         if (ratio < 2.2) {
-            setSection1Opacity((ratio - 1.2).toFixed(3));
+            opacity = ratio - 1.2;
+
+            if (opacity < 0.1) {
+                opacity = 0;
+            }
+
+            if (opacity > 0.9) {
+                opacity = 1;
+            }
+
+            setSection1Opacity(opacity.toFixed(3));
             return;
         }
 
         if (ratio < 3.3) {
-            setSection1Opacity((1 - (ratio - 2.3)).toFixed(3));
-            setSection2Opacity((ratio - 2.3).toFixed(3));
+            opacity = ratio - 2.3;
+
+            if (opacity < 0.1) {
+                opacity = 0;
+            }
+
+            if (opacity > 0.9) {
+                opacity = 1;
+            }
+
+            setSection1Opacity((1 - opacity).toFixed(3));
+            setSection2Opacity(opacity.toFixed(3));
             return;
         }
 
         if (ratio < 4.4) {
-            setSection2Opacity((1 - (ratio - 3.4)).toFixed(3));
-            setSection3Opacity((ratio - 3.4).toFixed(3));
+            opacity = ratio - 3.4;
+
+            if (opacity < 0.1) {
+                opacity = 0;
+            }
+
+            if (opacity > 0.9) {
+                opacity = 1;
+            }
+
+            setSection2Opacity((1 - opacity).toFixed(3));
+            setSection3Opacity(opacity.toFixed(3));
             return;
         }
 
-        setSection3Opacity(1);
+        setSection1Opacity(0);
+        setSection2Opacity(0);
+        setSection3Opacity(opacity);
     }
 
     function passOpacity(index) {
