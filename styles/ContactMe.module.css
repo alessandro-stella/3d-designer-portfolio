@@ -1,5 +1,5 @@
 .main {
     height: 100vh;
     min-height: 20em;
-    background-color: var(--light-green);
+    background-color: var(--dark-green);
 }

@@ -5,6 +5,7 @@ import VideoBackground from "../components/VideoBackground";
 import PersonalInfo from "../components/PersonalInfo";
 import Works from "../components/Works";
 import ContactMe from "../components/ContactMe";
+import ImagePreview from "../components/ImagePreview";
 import Loader from "../components/Loader";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
             <div className={styles.mainPage}>
                 <PersonalInfo />
                 <Works />
+                <ImagePreview />
                 <ContactMe />
             </div>
         </div>

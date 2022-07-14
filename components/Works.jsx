@@ -86,34 +86,14 @@ export default function Works() {
         setSection3Opacity(opacity);
     }
 
-    function passOpacity(index) {
-        let opacity;
-
-        switch (index) {
-            case 0:
-                opacity = section1Opacity;
-                break;
-
-            case 1:
-                opacity = section2Opacity;
-                break;
-
-            case 2:
-                opacity = section3Opacity;
-                break;
-
-            default:
-                break;
-        }
-
-        return opacity;
-    }
+    const passOpacity = (index) =>
+        [section1Opacity, section2Opacity, section3Opacity][index];
 
     return (
         <div className={styles.main}>
             <div className={styles.backgroundContainer}>
                 <div className={styles.background}>
-                    <div className={styles.backgroundHead}></div>
+                    <div className={styles.backgroundHead}>Experience in <span></span> </div>
                     <div className={styles.backgroundBody}></div>
                 </div>
             </div>

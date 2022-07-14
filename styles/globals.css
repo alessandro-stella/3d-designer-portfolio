@@ -1,3 +1,5 @@
+
+
 *,
 *::before,
 *::after {
@@ -13,8 +15,8 @@
     --dark-green: hsl(166, 100%, 2%);
     --dark-blue: hsl(180, 100%, 2%);
 
-    --light-green: hsl(166, 100%, 95%);
-    --light-blue: hsl(180, 100%, 95%);
+    --light-green: hsl(166, 100%, 98%);
+    --light-blue: hsl(180, 100%, 98%);
 }
 
 html,

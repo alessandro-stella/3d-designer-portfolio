@@ -1,9 +1,17 @@
 import styles from "../styles/Works.module.css";
 
 const allSectionsData = [
-    { title: "Sci-Fi", image: "/SciFiImage.png" },
-    { title: "Interactive", image: "/SoundVisualizer.png" },
-    { title: "Abstract", image: "/AbstractImage.png" },
+    { title: "Sci-Fi", text: "/SciFiText.svg", image: "/SciFiImage.png" },
+    {
+        title: "Dynamic",
+        text: "/DynamicText.svg",
+        image: "/SoundVisualizer.png",
+    },
+    {
+        title: "Abstract",
+        text: "/AbstractText.svg",
+        image: "/AbstractImage.png",
+    },
 ];
 
 export default function WorkSection({ index, opacity }) {
@@ -11,7 +19,13 @@ export default function WorkSection({ index, opacity }) {
 
     return (
         <div className={styles.section} style={{ opacity }}>
-            <div className={styles.head}>{sectionData.title}</div>
+            <div className={styles.head}>
+                <img
+                    className={styles.headText}
+                    src={sectionData.text}
+                    alt={sectionData.title}
+                />
+            </div>
 
             <div className={styles.body}>
                 <div
