@@ -20,11 +20,14 @@ export default function WorkSection({ index, opacity }) {
     return (
         <div className={styles.section} style={{ opacity }}>
             <div className={styles.head}>
+                <div className={styles.headUp}>Skilled in</div>
                 <img
                     className={styles.headText}
                     src={sectionData.text}
                     alt={sectionData.title}
                 />
+                <div className={styles.headDown}>models</div>
+
             </div>
 
             <div className={styles.body}>

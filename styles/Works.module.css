@@ -64,14 +64,24 @@
     width: 40%;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     padding: 2em;
     color: #fff;
 }
 
+.headUp,
+.headDown {
+    background-color: red;
+}
+
 .headText {
-    max-height: 100%;
+    height: auto;
     width: 100%;
+
+    display: inline;
 }
 
 .body {
