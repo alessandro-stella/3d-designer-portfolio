@@ -1,50 +1,114 @@
 import { useEffect, useState } from "react";
+import { useSiteContext } from "../SiteContext";
 import styles from "../styles/ImagePreview.module.css";
+import WorkSection from "./WorkSection";
 
 export default function ImagePreview() {
-    const [images, setImages] = useState([]);
+    const scrollY = useSiteContext();
+    const sections = [0, 1, 2];
+
+    const [section1Opacity, setSection1Opacity] = useState(0);
+    const [section2Opacity, setSection2Opacity] = useState(0);
+    const [section3Opacity, setSection3Opacity] = useState(0);
 
     useEffect(() => {
-        function importAll(r) {
-            let images = [];
-
-            r.keys().map((item, index) => {
-                let imageURL = r(item).default.src;
-
-                images[index] = {
-                    imageURL,
-                    imageALT: imageURL.substr(20).split(".")[0],
-                };
-            });
-
-            return images;
+        if (scrollY === "initial") {
+            return;
         }
 
-        function shuffleArray(a) {
-            for (var j, i = a.length - 1; i > 0; i--) {
-                j = Math.floor(Math.random() * (i + 1));
-                [a[i], a[j]] = [a[j], a[i]];
+        if (scrollY >= window.innerHeight) {
+            checkOpacities(scrollY / innerHeight);
+        }
+    }, []);
+
+    useEffect(() => {
+        if (scrollY === "initial") {
+            return;
+        }
+
+        if (scrollY >= window.innerHeight * 1.2) {
+            checkOpacities(scrollY / innerHeight);
+        }
+    }, [scrollY]);
+
+    function checkOpacities(ratio) {
+        let opacity = 1;
+
+        if (ratio < 2.2) {
+            opacity = ratio - 1.2;
+
+            if (opacity < 0.1) {
+                opacity = 0;
             }
 
-            return a;
+            if (opacity > 0.9) {
+                opacity = 1;
+            }
+
+            setSection1Opacity(opacity.toFixed(3));
+            return;
         }
 
-        let serverImages = importAll(
-            require.context(
-                "../public/pastProjects/",
-                false,
-                /\.(png|jpe?g|svg)$/
-            )
-        );
+        if (ratio < 3.3) {
+            opacity = ratio - 2.3;
 
-        setImages(shuffleArray(serverImages));
-    }, []);
+            if (opacity < 0.1) {
+                opacity = 0;
+            }
+
+            if (opacity > 0.9) {
+                opacity = 1;
+            }
+
+            setSection1Opacity((1 - opacity).toFixed(3));
+            setSection2Opacity(opacity.toFixed(3));
+            return;
+        }
+
+        if (ratio < 4.4) {
+            opacity = ratio - 3.4;
+
+            if (opacity < 0.1) {
+                opacity = 0;
+            }
+
+            if (opacity > 0.9) {
+                opacity = 1;
+            }
+
+            setSection2Opacity((1 - opacity).toFixed(3));
+            setSection3Opacity(opacity.toFixed(3));
+            return;
+        }
+
+        setSection1Opacity(0);
+        setSection2Opacity(0);
+        setSection3Opacity(opacity);
+    }
+
+    const passOpacity = (index) =>
+        [section1Opacity, section2Opacity, section3Opacity][index];
 
     return (
         <div className={styles.main}>
-            {images.map((image, index) => (
-                <img key={index} src={image.imageURL} alt={image.imageALT} />
-            ))}
+            <div className={styles.backgroundContainer}>
+                <div className={styles.background}>
+                    <div className={styles.backgroundHead}>
+                        Experience in <span></span>{" "}
+                    </div>
+                    <div className={styles.backgroundBody}></div>
+                </div>
+            </div>
+
+            <div className={styles.sectionContainer}>
+                {sections.map((singleSection) => (
+                    <WorkSection
+                        key={singleSection}
+                        index={singleSection}
+                        opacity={passOpacity(singleSection)}
+                    />
+                ))}
+            </div>
         </div>
     );
 }

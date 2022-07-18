@@ -1,4 +1,4 @@
-import styles from "../styles/Works.module.css";
+import styles from "../styles/ImagePreview.module.css";
 
 const allSectionsData = [
     {

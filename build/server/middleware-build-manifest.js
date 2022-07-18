@@ -1,1 +1,3 @@
-self.__BUILD_MANIFEST={"polyfillFiles":["static/chunks/polyfills.js"],"devFiles":["static/chunks/react-refresh.js"],"ampDevFiles":["static/chunks/webpack.js","static/chunks/amp.js"],"lowPriorityFiles":["static/development/_buildManifest.js","static/development/_ssgManifest.js"],"rootMainFiles":[],"pages":{"/":["static/chunks/webpack.js","static/chunks/main.js","static/chunks/pages/index.js"],"/_app":["static/chunks/webpack.js","static/chunks/main.js","static/chunks/pages/_app.js"],"/_error":["static/chunks/webpack.js","static/chunks/main.js","static/chunks/pages/_error.js"]},"ampFirstPages":[]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a1a23842ad46926a7c0cec893c6de4f042a1976dbf40738026ec03eb10e024f
+size 601

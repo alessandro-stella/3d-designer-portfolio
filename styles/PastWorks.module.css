@@ -1,0 +1,14 @@
+.main {
+    height: 100vh;
+    min-height: 20em;
+    background-color: var(--light-green);
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image {
+    max-width: 5em;
+}
