@@ -82,6 +82,248 @@ eval("// Exports\nmodule.exports = {\n\t\"main\": \"Works_main__eg49v\",\n\t\"ba
 
 /***/ }),
 
+/***/ "./public/pastProjects/abstractScene1.png":
+/*!************************************************!*\
+  !*** ./public/pastProjects/abstractScene1.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/abstractScene1.2e80d80e.png\",\"height\":1440,\"width\":2560,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FabstractScene1.2e80d80e.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2Fic3RyYWN0U2NlbmUxLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxxTEFBcUwiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9hYnN0cmFjdFNjZW5lMS5wbmc/MWM2OSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvYWJzdHJhY3RTY2VuZTEuMmU4MGQ4MGUucG5nXCIsXCJoZWlnaHRcIjoxNDQwLFwid2lkdGhcIjoyNTYwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmFic3RyYWN0U2NlbmUxLjJlODBkODBlLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/abstractScene1.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/abstractScene2.png":
+/*!************************************************!*\
+  !*** ./public/pastProjects/abstractScene2.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/abstractScene2.b87d5735.png\",\"height\":1440,\"width\":2560,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FabstractScene2.b87d5735.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2Fic3RyYWN0U2NlbmUyLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxxTEFBcUwiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9hYnN0cmFjdFNjZW5lMi5wbmc/ODhmYSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvYWJzdHJhY3RTY2VuZTIuYjg3ZDU3MzUucG5nXCIsXCJoZWlnaHRcIjoxNDQwLFwid2lkdGhcIjoyNTYwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmFic3RyYWN0U2NlbmUyLmI4N2Q1NzM1LnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/abstractScene2.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/abstractScene3.png":
+/*!************************************************!*\
+  !*** ./public/pastProjects/abstractScene3.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/abstractScene3.709a346d.png\",\"height\":1440,\"width\":2560,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FabstractScene3.709a346d.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2Fic3RyYWN0U2NlbmUzLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxxTEFBcUwiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9hYnN0cmFjdFNjZW5lMy5wbmc/ZGVmOSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvYWJzdHJhY3RTY2VuZTMuNzA5YTM0NmQucG5nXCIsXCJoZWlnaHRcIjoxNDQwLFwid2lkdGhcIjoyNTYwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmFic3RyYWN0U2NlbmUzLjcwOWEzNDZkLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/abstractScene3.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/arcReactor.png":
+/*!********************************************!*\
+  !*** ./public/pastProjects/arcReactor.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/arcReactor.a5f10983.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FarcReactor.a5f10983.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2FyY1JlYWN0b3IucG5nLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxpRUFBZSxDQUFDLDZLQUE2SyIsInNvdXJjZXMiOlsid2VicGFjazovL3JvYmxveC1wb3J0Zm9saW8vLi9wdWJsaWMvcGFzdFByb2plY3RzL2FyY1JlYWN0b3IucG5nPzhmMTYiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wic3JjXCI6XCIvX25leHQvc3RhdGljL21lZGlhL2FyY1JlYWN0b3IuYTVmMTA5ODMucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmFyY1JlYWN0b3IuYTVmMTA5ODMucG5nJnc9OCZxPTcwXCJ9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./public/pastProjects/arcReactor.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/ashrockLogo.png":
+/*!*********************************************!*\
+  !*** ./public/pastProjects/ashrockLogo.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/ashrockLogo.89fc5d0a.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FashrockLogo.89fc5d0a.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2FzaHJvY2tMb2dvLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQywrS0FBK0siLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9hc2hyb2NrTG9nby5wbmc/MjQ0NSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvYXNocm9ja0xvZ28uODlmYzVkMGEucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmFzaHJvY2tMb2dvLjg5ZmM1ZDBhLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/ashrockLogo.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/columns.png":
+/*!*****************************************!*\
+  !*** ./public/pastProjects/columns.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/columns.fb68ec77.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcolumns.fb68ec77.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2NvbHVtbnMucG5nLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxpRUFBZSxDQUFDLHVLQUF1SyIsInNvdXJjZXMiOlsid2VicGFjazovL3JvYmxveC1wb3J0Zm9saW8vLi9wdWJsaWMvcGFzdFByb2plY3RzL2NvbHVtbnMucG5nPzZiYWUiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wic3JjXCI6XCIvX25leHQvc3RhdGljL21lZGlhL2NvbHVtbnMuZmI2OGVjNzcucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmNvbHVtbnMuZmI2OGVjNzcucG5nJnc9OCZxPTcwXCJ9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./public/pastProjects/columns.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/cubeWorld.png":
+/*!*******************************************!*\
+  !*** ./public/pastProjects/cubeWorld.png ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/cubeWorld.ab3fbaab.png\",\"height\":1440,\"width\":2560,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FcubeWorld.ab3fbaab.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2N1YmVXb3JsZC5wbmcuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLENBQUMsMktBQTJLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcm9ibG94LXBvcnRmb2xpby8uL3B1YmxpYy9wYXN0UHJvamVjdHMvY3ViZVdvcmxkLnBuZz81NzY4Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9jdWJlV29ybGQuYWIzZmJhYWIucG5nXCIsXCJoZWlnaHRcIjoxNDQwLFwid2lkdGhcIjoyNTYwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmN1YmVXb3JsZC5hYjNmYmFhYi5wbmcmdz04JnE9NzBcIn07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./public/pastProjects/cubeWorld.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/glassSphere.png":
+/*!*********************************************!*\
+  !*** ./public/pastProjects/glassSphere.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/glassSphere.24de0539.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FglassSphere.24de0539.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2dsYXNzU3BoZXJlLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQywrS0FBK0siLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9nbGFzc1NwaGVyZS5wbmc/N2FlOCJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvZ2xhc3NTcGhlcmUuMjRkZTA1MzkucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmdsYXNzU3BoZXJlLjI0ZGUwNTM5LnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/glassSphere.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/hexagons.png":
+/*!******************************************!*\
+  !*** ./public/pastProjects/hexagons.png ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/hexagons.37c04d8e.png\",\"height\":2160,\"width\":3840,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhexagons.37c04d8e.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2hleGFnb25zLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyx5S0FBeUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9oZXhhZ29ucy5wbmc/ZTM3NSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvaGV4YWdvbnMuMzdjMDRkOGUucG5nXCIsXCJoZWlnaHRcIjoyMTYwLFwid2lkdGhcIjozODQwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmhleGFnb25zLjM3YzA0ZDhlLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/hexagons.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/icosaedron.png":
+/*!********************************************!*\
+  !*** ./public/pastProjects/icosaedron.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/icosaedron.6653de4b.png\",\"height\":2160,\"width\":3840,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficosaedron.6653de4b.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL2ljb3NhZWRyb24ucG5nLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxpRUFBZSxDQUFDLDZLQUE2SyIsInNvdXJjZXMiOlsid2VicGFjazovL3JvYmxveC1wb3J0Zm9saW8vLi9wdWJsaWMvcGFzdFByb2plY3RzL2ljb3NhZWRyb24ucG5nP2ZmZGYiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wic3JjXCI6XCIvX25leHQvc3RhdGljL21lZGlhL2ljb3NhZWRyb24uNjY1M2RlNGIucG5nXCIsXCJoZWlnaHRcIjoyMTYwLFwid2lkdGhcIjozODQwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRmljb3NhZWRyb24uNjY1M2RlNGIucG5nJnc9OCZxPTcwXCJ9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./public/pastProjects/icosaedron.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/neonF.png":
+/*!***************************************!*\
+  !*** ./public/pastProjects/neonF.png ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/neonF.cf7ac292.png\",\"height\":2160,\"width\":3840,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FneonF.cf7ac292.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL25lb25GLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxtS0FBbUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9uZW9uRi5wbmc/NmRkYSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvbmVvbkYuY2Y3YWMyOTIucG5nXCIsXCJoZWlnaHRcIjoyMTYwLFwid2lkdGhcIjozODQwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRm5lb25GLmNmN2FjMjkyLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/neonF.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/neonT.png":
+/*!***************************************!*\
+  !*** ./public/pastProjects/neonT.png ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/neonT.819043a1.png\",\"height\":2160,\"width\":3840,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FneonT.819043a1.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL25lb25ULnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxtS0FBbUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9uZW9uVC5wbmc/NWE5YyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvbmVvblQuODE5MDQzYTEucG5nXCIsXCJoZWlnaHRcIjoyMTYwLFwid2lkdGhcIjozODQwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRm5lb25ULjgxOTA0M2ExLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/neonT.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/particleVortex.png":
+/*!************************************************!*\
+  !*** ./public/pastProjects/particleVortex.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/particleVortex.486e921f.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FparticleVortex.486e921f.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3BhcnRpY2xlVm9ydGV4LnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxxTEFBcUwiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9wYXJ0aWNsZVZvcnRleC5wbmc/NDljZSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvcGFydGljbGVWb3J0ZXguNDg2ZTkyMWYucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnBhcnRpY2xlVm9ydGV4LjQ4NmU5MjFmLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/particleVortex.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/pendulums.png":
+/*!*******************************************!*\
+  !*** ./public/pastProjects/pendulums.png ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/pendulums.47b99e3a.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpendulums.47b99e3a.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3BlbmR1bHVtcy5wbmcuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLENBQUMsMktBQTJLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcm9ibG94LXBvcnRmb2xpby8uL3B1YmxpYy9wYXN0UHJvamVjdHMvcGVuZHVsdW1zLnBuZz8wNmE1Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9wZW5kdWx1bXMuNDdiOTllM2EucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnBlbmR1bHVtcy40N2I5OWUzYS5wbmcmdz04JnE9NzBcIn07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./public/pastProjects/pendulums.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/processor.png":
+/*!*******************************************!*\
+  !*** ./public/pastProjects/processor.png ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/processor.47def4f6.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprocessor.47def4f6.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3Byb2Nlc3Nvci5wbmcuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLENBQUMsMktBQTJLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcm9ibG94LXBvcnRmb2xpby8uL3B1YmxpYy9wYXN0UHJvamVjdHMvcHJvY2Vzc29yLnBuZz84OWUyIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9wcm9jZXNzb3IuNDdkZWY0ZjYucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnByb2Nlc3Nvci40N2RlZjRmNi5wbmcmdz04JnE9NzBcIn07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./public/pastProjects/processor.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/ring.png":
+/*!**************************************!*\
+  !*** ./public/pastProjects/ring.png ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/ring.306ba64e.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fring.306ba64e.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3JpbmcucG5nLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxpRUFBZSxDQUFDLGlLQUFpSyIsInNvdXJjZXMiOlsid2VicGFjazovL3JvYmxveC1wb3J0Zm9saW8vLi9wdWJsaWMvcGFzdFByb2plY3RzL3JpbmcucG5nPzNiMzciXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wic3JjXCI6XCIvX25leHQvc3RhdGljL21lZGlhL3JpbmcuMzA2YmE2NGUucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnJpbmcuMzA2YmE2NGUucG5nJnc9OCZxPTcwXCJ9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./public/pastProjects/ring.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/room.png":
+/*!**************************************!*\
+  !*** ./public/pastProjects/room.png ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/room.b551a1d1.png\",\"height\":1440,\"width\":2560,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Froom.b551a1d1.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3Jvb20ucG5nLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxpRUFBZSxDQUFDLGlLQUFpSyIsInNvdXJjZXMiOlsid2VicGFjazovL3JvYmxveC1wb3J0Zm9saW8vLi9wdWJsaWMvcGFzdFByb2plY3RzL3Jvb20ucG5nPzAxYTciXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wic3JjXCI6XCIvX25leHQvc3RhdGljL21lZGlhL3Jvb20uYjU1MWExZDEucG5nXCIsXCJoZWlnaHRcIjoxNDQwLFwid2lkdGhcIjoyNTYwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnJvb20uYjU1MWExZDEucG5nJnc9OCZxPTcwXCJ9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./public/pastProjects/room.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/soundVisualizer.png":
+/*!*************************************************!*\
+  !*** ./public/pastProjects/soundVisualizer.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/soundVisualizer.bb085d36.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FsoundVisualizer.bb085d36.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3NvdW5kVmlzdWFsaXplci5wbmcuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLENBQUMsdUxBQXVMIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcm9ibG94LXBvcnRmb2xpby8uL3B1YmxpYy9wYXN0UHJvamVjdHMvc291bmRWaXN1YWxpemVyLnBuZz85ZTQwIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9zb3VuZFZpc3VhbGl6ZXIuYmIwODVkMzYucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnNvdW5kVmlzdWFsaXplci5iYjA4NWQzNi5wbmcmdz04JnE9NzBcIn07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./public/pastProjects/soundVisualizer.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/sun.png":
+/*!*************************************!*\
+  !*** ./public/pastProjects/sun.png ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/sun.daa9d471.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsun.daa9d471.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3N1bi5wbmcuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLENBQUMsK0pBQStKIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcm9ibG94LXBvcnRmb2xpby8uL3B1YmxpYy9wYXN0UHJvamVjdHMvc3VuLnBuZz82ZGYzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9zdW4uZGFhOWQ0NzEucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnN1bi5kYWE5ZDQ3MS5wbmcmdz04JnE9NzBcIn07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./public/pastProjects/sun.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/sun80.png":
+/*!***************************************!*\
+  !*** ./public/pastProjects/sun80.png ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/sun80.0c9340d0.png\",\"height\":1080,\"width\":1920,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsun80.0c9340d0.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3N1bjgwLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxtS0FBbUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9zdW44MC5wbmc/MGRkYiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvc3VuODAuMGM5MzQwZDAucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxOTIwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnN1bjgwLjBjOTM0MGQwLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/sun80.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/synth.png":
+/*!***************************************!*\
+  !*** ./public/pastProjects/synth.png ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/synth.fbaa15f1.png\",\"height\":2160,\"width\":3840,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsynth.fbaa15f1.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3N5bnRoLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQyxtS0FBbUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy9zeW50aC5wbmc/ZmUzMCJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvc3ludGguZmJhYTE1ZjEucG5nXCIsXCJoZWlnaHRcIjoyMTYwLFwid2lkdGhcIjozODQwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnN5bnRoLmZiYWExNWYxLnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/synth.png\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects/warpedWorld.png":
+/*!*********************************************!*\
+  !*** ./public/pastProjects/warpedWorld.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/warpedWorld.0911e8d8.png\",\"height\":2160,\"width\":3840,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwarpedWorld.0911e8d8.png&w=8&q=70\"});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvcGFzdFByb2plY3RzL3dhcnBlZFdvcmxkLnBuZy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsQ0FBQywrS0FBK0siLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb2Jsb3gtcG9ydGZvbGlvLy4vcHVibGljL3Bhc3RQcm9qZWN0cy93YXJwZWRXb3JsZC5wbmc/Y2RkMiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XCJzcmNcIjpcIi9fbmV4dC9zdGF0aWMvbWVkaWEvd2FycGVkV29ybGQuMDkxMWU4ZDgucG5nXCIsXCJoZWlnaHRcIjoyMTYwLFwid2lkdGhcIjozODQwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRndhcnBlZFdvcmxkLjA5MTFlOGQ4LnBuZyZ3PTgmcT03MFwifTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./public/pastProjects/warpedWorld.png\n");
+
+/***/ }),
+
 /***/ "./SiteContext.jsx":
 /*!*************************!*\
   !*** ./SiteContext.jsx ***!
@@ -111,7 +353,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ImagePreview)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_ImagePreview_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/ImagePreview.module.css */ \"./styles/ImagePreview.module.css\");\n/* harmony import */ var _styles_ImagePreview_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_ImagePreview_module_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction ImagePreview() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_ImagePreview_module_css__WEBPACK_IMPORTED_MODULE_1___default().main),\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n            children: \"Image\"\n        }, void 0, false, {\n            fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\components\\\\ImagePreview.jsx\",\n            lineNumber: 6,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\components\\\\ImagePreview.jsx\",\n        lineNumber: 5,\n        columnNumber: 9\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0ltYWdlUHJldmlldy5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTtBQUF1RDtBQUV4QyxTQUFTQyxZQUFZLEdBQUc7SUFDbkMscUJBQ0ksOERBQUNDLEtBQUc7UUFBQ0MsU0FBUyxFQUFFSCw2RUFBVztrQkFDdkIsNEVBQUNLLElBQUU7c0JBQUMsT0FBSzs7Ozs7Z0JBQUs7Ozs7O1lBQ1osQ0FDUjtDQUNMIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcm9ibG94LXBvcnRmb2xpby8uL2NvbXBvbmVudHMvSW1hZ2VQcmV2aWV3LmpzeD85ODgwIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZXMgZnJvbSBcIi4uL3N0eWxlcy9JbWFnZVByZXZpZXcubW9kdWxlLmNzc1wiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSW1hZ2VQcmV2aWV3KCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLm1haW59PlxyXG4gICAgICAgICAgICA8aDE+SW1hZ2U8L2gxPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsic3R5bGVzIiwiSW1hZ2VQcmV2aWV3IiwiZGl2IiwiY2xhc3NOYW1lIiwibWFpbiIsImgxIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/ImagePreview.jsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ImagePreview)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_ImagePreview_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/ImagePreview.module.css */ \"./styles/ImagePreview.module.css\");\n/* harmony import */ var _styles_ImagePreview_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_ImagePreview_module_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction ImagePreview() {\n    const { 0: images , 1: setImages  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        function importAll(r) {\n            let images = [];\n            r.keys().map((item, index)=>{\n                let imageURL = r(item).default.src;\n                images[index] = {\n                    imageURL,\n                    imageALT: imageURL.substr(20).split(\".\")[0]\n                };\n            });\n            return images;\n        }\n        function shuffleArray(a) {\n            for(var j, i = a.length - 1; i > 0; i--){\n                j = Math.floor(Math.random() * (i + 1));\n                [a[i], a[j]] = [\n                    a[j],\n                    a[i]\n                ];\n            }\n            return a;\n        }\n        let serverImages = importAll(__webpack_require__(\"./public/pastProjects sync \\\\.(png%7Cjpe?g%7Csvg)$\"));\n        setImages(shuffleArray(serverImages));\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_ImagePreview_module_css__WEBPACK_IMPORTED_MODULE_2___default().main),\n        children: images.map((image, index)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                src: image.imageURL,\n                alt: image.imageALT\n            }, index, false, {\n                fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\components\\\\ImagePreview.jsx\",\n                lineNumber: 46,\n                columnNumber: 17\n            }, this))\n    }, void 0, false, {\n        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\components\\\\ImagePreview.jsx\",\n        lineNumber: 44,\n        columnNumber: 9\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0ltYWdlUHJldmlldy5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBO0FBQTRDO0FBQ1c7QUFFeEMsU0FBU0csWUFBWSxHQUFHO0lBQ25DLE1BQU0sS0FBQ0MsTUFBTSxNQUFFQyxTQUFTLE1BQUlKLCtDQUFRLENBQUMsRUFBRSxDQUFDO0lBRXhDRCxnREFBUyxDQUFDLElBQU07UUFDWixTQUFTTSxTQUFTLENBQUNDLENBQUMsRUFBRTtZQUNsQixJQUFJSCxNQUFNLEdBQUcsRUFBRTtZQUVmRyxDQUFDLENBQUNDLElBQUksRUFBRSxDQUFDQyxHQUFHLENBQUMsQ0FBQ0MsSUFBSSxFQUFFQyxLQUFLLEdBQUs7Z0JBQzFCLElBQUlDLFFBQVEsR0FBR0wsQ0FBQyxDQUFDRyxJQUFJLENBQUMsQ0FBQ0csT0FBTyxDQUFDQyxHQUFHO2dCQUVsQ1YsTUFBTSxDQUFDTyxLQUFLLENBQUMsR0FBRztvQkFDWkMsUUFBUTtvQkFDUkcsUUFBUSxFQUFFSCxRQUFRLENBQUNJLE1BQU0sQ0FBQyxFQUFFLENBQUMsQ0FBQ0MsS0FBSyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsQ0FBQztpQkFDOUMsQ0FBQzthQUNMLENBQUMsQ0FBQztZQUVILE9BQU9iLE1BQU0sQ0FBQztTQUNqQjtRQUVELFNBQVNjLFlBQVksQ0FBQ0MsQ0FBQyxFQUFFO1lBQ3JCLElBQUssSUFBSUMsQ0FBQyxFQUFFQyxDQUFDLEdBQUdGLENBQUMsQ0FBQ0csTUFBTSxHQUFHLENBQUMsRUFBRUQsQ0FBQyxHQUFHLENBQUMsRUFBRUEsQ0FBQyxFQUFFLENBQUU7Z0JBQ3RDRCxDQUFDLEdBQUdHLElBQUksQ0FBQ0MsS0FBSyxDQUFDRCxJQUFJLENBQUNFLE1BQU0sRUFBRSxHQUFHLENBQUNKLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQyxDQUFDO2dCQUN4QyxDQUFDRixDQUFDLENBQUNFLENBQUMsQ0FBQyxFQUFFRixDQUFDLENBQUNDLENBQUMsQ0FBQyxDQUFDLEdBQUc7b0JBQUNELENBQUMsQ0FBQ0MsQ0FBQyxDQUFDO29CQUFFRCxDQUFDLENBQUNFLENBQUMsQ0FBQztpQkFBQyxDQUFDO2FBQy9CO1lBRUQsT0FBT0YsQ0FBQyxDQUFDO1NBQ1o7UUFFRCxJQUFJTyxZQUFZLEdBQUdwQixTQUFTLENBQ3hCcUIseUVBSUMsQ0FDSjtRQUVEdEIsU0FBUyxDQUFDYSxZQUFZLENBQUNRLFlBQVksQ0FBQyxDQUFDLENBQUM7S0FDekMsRUFBRSxFQUFFLENBQUMsQ0FBQztJQUVQLHFCQUNJLDhEQUFDRyxLQUFHO1FBQUNDLFNBQVMsRUFBRTVCLDZFQUFXO2tCQUN0QkUsTUFBTSxDQUFDSyxHQUFHLENBQUMsQ0FBQ3VCLEtBQUssRUFBRXJCLEtBQUssaUJBQ3JCLDhEQUFDc0IsS0FBRztnQkFBYW5CLEdBQUcsRUFBRWtCLEtBQUssQ0FBQ3BCLFFBQVE7Z0JBQUVzQixHQUFHLEVBQUVGLEtBQUssQ0FBQ2pCLFFBQVE7ZUFBL0NKLEtBQUs7Ozs7b0JBQThDLENBQy9EOzs7OztZQUNBLENBQ1I7Q0FDTCIsInNvdXJjZXMiOlsid2VicGFjazovL3JvYmxveC1wb3J0Zm9saW8vLi9jb21wb25lbnRzL0ltYWdlUHJldmlldy5qc3g/OTg4MCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCBzdHlsZXMgZnJvbSBcIi4uL3N0eWxlcy9JbWFnZVByZXZpZXcubW9kdWxlLmNzc1wiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSW1hZ2VQcmV2aWV3KCkge1xyXG4gICAgY29uc3QgW2ltYWdlcywgc2V0SW1hZ2VzXSA9IHVzZVN0YXRlKFtdKTtcclxuXHJcbiAgICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgICAgIGZ1bmN0aW9uIGltcG9ydEFsbChyKSB7XHJcbiAgICAgICAgICAgIGxldCBpbWFnZXMgPSBbXTtcclxuXHJcbiAgICAgICAgICAgIHIua2V5cygpLm1hcCgoaXRlbSwgaW5kZXgpID0+IHtcclxuICAgICAgICAgICAgICAgIGxldCBpbWFnZVVSTCA9IHIoaXRlbSkuZGVmYXVsdC5zcmM7XHJcblxyXG4gICAgICAgICAgICAgICAgaW1hZ2VzW2luZGV4XSA9IHtcclxuICAgICAgICAgICAgICAgICAgICBpbWFnZVVSTCxcclxuICAgICAgICAgICAgICAgICAgICBpbWFnZUFMVDogaW1hZ2VVUkwuc3Vic3RyKDIwKS5zcGxpdChcIi5cIilbMF0sXHJcbiAgICAgICAgICAgICAgICB9O1xyXG4gICAgICAgICAgICB9KTtcclxuXHJcbiAgICAgICAgICAgIHJldHVybiBpbWFnZXM7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBmdW5jdGlvbiBzaHVmZmxlQXJyYXkoYSkge1xyXG4gICAgICAgICAgICBmb3IgKHZhciBqLCBpID0gYS5sZW5ndGggLSAxOyBpID4gMDsgaS0tKSB7XHJcbiAgICAgICAgICAgICAgICBqID0gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogKGkgKyAxKSk7XHJcbiAgICAgICAgICAgICAgICBbYVtpXSwgYVtqXV0gPSBbYVtqXSwgYVtpXV07XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIHJldHVybiBhO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgbGV0IHNlcnZlckltYWdlcyA9IGltcG9ydEFsbChcclxuICAgICAgICAgICAgcmVxdWlyZS5jb250ZXh0KFxyXG4gICAgICAgICAgICAgICAgXCIuLi9wdWJsaWMvcGFzdFByb2plY3RzL1wiLFxyXG4gICAgICAgICAgICAgICAgZmFsc2UsXHJcbiAgICAgICAgICAgICAgICAvXFwuKHBuZ3xqcGU/Z3xzdmcpJC9cclxuICAgICAgICAgICAgKVxyXG4gICAgICAgICk7XHJcblxyXG4gICAgICAgIHNldEltYWdlcyhzaHVmZmxlQXJyYXkoc2VydmVySW1hZ2VzKSk7XHJcbiAgICB9LCBbXSk7XHJcblxyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLm1haW59PlxyXG4gICAgICAgICAgICB7aW1hZ2VzLm1hcCgoaW1hZ2UsIGluZGV4KSA9PiAoXHJcbiAgICAgICAgICAgICAgICA8aW1nIGtleT17aW5kZXh9IHNyYz17aW1hZ2UuaW1hZ2VVUkx9IGFsdD17aW1hZ2UuaW1hZ2VBTFR9IC8+XHJcbiAgICAgICAgICAgICkpfVxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJzdHlsZXMiLCJJbWFnZVByZXZpZXciLCJpbWFnZXMiLCJzZXRJbWFnZXMiLCJpbXBvcnRBbGwiLCJyIiwia2V5cyIsIm1hcCIsIml0ZW0iLCJpbmRleCIsImltYWdlVVJMIiwiZGVmYXVsdCIsInNyYyIsImltYWdlQUxUIiwic3Vic3RyIiwic3BsaXQiLCJzaHVmZmxlQXJyYXkiLCJhIiwiaiIsImkiLCJsZW5ndGgiLCJNYXRoIiwiZmxvb3IiLCJyYW5kb20iLCJzZXJ2ZXJJbWFnZXMiLCJyZXF1aXJlIiwiY29udGV4dCIsImRpdiIsImNsYXNzTmFtZSIsIm1haW4iLCJpbWFnZSIsImltZyIsImFsdCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/ImagePreview.jsx\n");
 
 /***/ }),
 
@@ -178,6 +420,59 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/Home.module.css */ \"./styles/Home.module.css\");\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _components_VideoBackground__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/VideoBackground */ \"./components/VideoBackground.jsx\");\n/* harmony import */ var _components_PersonalInfo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PersonalInfo */ \"./components/PersonalInfo.jsx\");\n/* harmony import */ var _components_Works__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Works */ \"./components/Works.jsx\");\n/* harmony import */ var _components_ContactMe__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ContactMe */ \"./components/ContactMe.jsx\");\n/* harmony import */ var _components_ImagePreview__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/ImagePreview */ \"./components/ImagePreview.jsx\");\n/* harmony import */ var _components_Loader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Loader */ \"./components/Loader.jsx\");\n\n\n\n\n\n\n\n\n\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8___default().container),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Sup3r_ Portfolio\"\n                    }, void 0, false, {\n                        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                        lineNumber: 15,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"description\",\n                        content: \"A personal portfolio containing some of the past projects created by the 3d designer Sup3r_\"\n                    }, void 0, false, {\n                        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                        lineNumber: 16,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        href: \"/favicon.ico\"\n                    }, void 0, false, {\n                        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                        lineNumber: 20,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                lineNumber: 14,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_VideoBackground__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                lineNumber: 23,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8___default().mainPage),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_PersonalInfo__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                        lineNumber: 26,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Works__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {}, void 0, false, {\n                        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                        lineNumber: 27,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_ImagePreview__WEBPACK_IMPORTED_MODULE_6__[\"default\"], {}, void 0, false, {\n                        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                        lineNumber: 28,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_ContactMe__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {}, void 0, false, {\n                        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                        lineNumber: 29,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n                lineNumber: 25,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"H:\\\\Informatica\\\\Progetti Personali\\\\React\\\\roblox-portfolio\\\\pages\\\\index.jsx\",\n        lineNumber: 13,\n        columnNumber: 9\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQTZCO0FBQ2tCO0FBRWE7QUFDTjtBQUNkO0FBQ1E7QUFDTTtBQUNaO0FBRTNCLFNBQVNRLElBQUksR0FBRztJQUMzQixxQkFDSSw4REFBQ0MsS0FBRztRQUFDQyxTQUFTLEVBQUVULDBFQUFnQjs7MEJBQzVCLDhEQUFDRCxrREFBSTs7a0NBQ0QsOERBQUNZLE9BQUs7a0NBQUMsa0JBQWdCOzs7Ozs0QkFBUTtrQ0FDL0IsOERBQUNDLE1BQUk7d0JBQ0RDLElBQUksRUFBQyxhQUFhO3dCQUNsQkMsT0FBTyxFQUFDLDZGQUE2Rjs7Ozs7NEJBQ3ZHO2tDQUNGLDhEQUFDQyxNQUFJO3dCQUFDQyxHQUFHLEVBQUMsTUFBTTt3QkFBQ0MsSUFBSSxFQUFDLGNBQWM7Ozs7OzRCQUFHOzs7Ozs7b0JBQ3BDOzBCQUVQLDhEQUFDaEIsbUVBQWU7Ozs7b0JBQUc7MEJBRW5CLDhEQUFDTyxLQUFHO2dCQUFDQyxTQUFTLEVBQUVULHlFQUFlOztrQ0FDM0IsOERBQUNFLGdFQUFZOzs7OzRCQUFHO2tDQUNoQiw4REFBQ0MseURBQUs7Ozs7NEJBQUc7a0NBQ1QsOERBQUNFLGdFQUFZOzs7OzRCQUFHO2tDQUNoQiw4REFBQ0QsNkRBQVM7Ozs7NEJBQUc7Ozs7OztvQkFDWDs7Ozs7O1lBQ0osQ0FDUjtDQUNMIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcm9ibG94LXBvcnRmb2xpby8uL3BhZ2VzL2luZGV4LmpzeD83ZmZkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcbmltcG9ydCBzdHlsZXMgZnJvbSBcIi4uL3N0eWxlcy9Ib21lLm1vZHVsZS5jc3NcIjtcblxuaW1wb3J0IFZpZGVvQmFja2dyb3VuZCBmcm9tIFwiLi4vY29tcG9uZW50cy9WaWRlb0JhY2tncm91bmRcIjtcbmltcG9ydCBQZXJzb25hbEluZm8gZnJvbSBcIi4uL2NvbXBvbmVudHMvUGVyc29uYWxJbmZvXCI7XG5pbXBvcnQgV29ya3MgZnJvbSBcIi4uL2NvbXBvbmVudHMvV29ya3NcIjtcbmltcG9ydCBDb250YWN0TWUgZnJvbSBcIi4uL2NvbXBvbmVudHMvQ29udGFjdE1lXCI7XG5pbXBvcnQgSW1hZ2VQcmV2aWV3IGZyb20gXCIuLi9jb21wb25lbnRzL0ltYWdlUHJldmlld1wiO1xuaW1wb3J0IExvYWRlciBmcm9tIFwiLi4vY29tcG9uZW50cy9Mb2FkZXJcIjtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLmNvbnRhaW5lcn0+XG4gICAgICAgICAgICA8SGVhZD5cbiAgICAgICAgICAgICAgICA8dGl0bGU+U3VwM3JfIFBvcnRmb2xpbzwvdGl0bGU+XG4gICAgICAgICAgICAgICAgPG1ldGFcbiAgICAgICAgICAgICAgICAgICAgbmFtZT1cImRlc2NyaXB0aW9uXCJcbiAgICAgICAgICAgICAgICAgICAgY29udGVudD1cIkEgcGVyc29uYWwgcG9ydGZvbGlvIGNvbnRhaW5pbmcgc29tZSBvZiB0aGUgcGFzdCBwcm9qZWN0cyBjcmVhdGVkIGJ5IHRoZSAzZCBkZXNpZ25lciBTdXAzcl9cIlxuICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiAvPlxuICAgICAgICAgICAgPC9IZWFkPlxuXG4gICAgICAgICAgICA8VmlkZW9CYWNrZ3JvdW5kIC8+XG5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMubWFpblBhZ2V9PlxuICAgICAgICAgICAgICAgIDxQZXJzb25hbEluZm8gLz5cbiAgICAgICAgICAgICAgICA8V29ya3MgLz5cbiAgICAgICAgICAgICAgICA8SW1hZ2VQcmV2aWV3IC8+XG4gICAgICAgICAgICAgICAgPENvbnRhY3RNZSAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICk7XG59XG4iXSwibmFtZXMiOlsiSGVhZCIsInN0eWxlcyIsIlZpZGVvQmFja2dyb3VuZCIsIlBlcnNvbmFsSW5mbyIsIldvcmtzIiwiQ29udGFjdE1lIiwiSW1hZ2VQcmV2aWV3IiwiTG9hZGVyIiwiSG9tZSIsImRpdiIsImNsYXNzTmFtZSIsImNvbnRhaW5lciIsInRpdGxlIiwibWV0YSIsIm5hbWUiLCJjb250ZW50IiwibGluayIsInJlbCIsImhyZWYiLCJtYWluUGFnZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/index.jsx\n");
+
+/***/ }),
+
+/***/ "./public/pastProjects sync \\.(png%7Cjpe?g%7Csvg)$":
+/*!***********************************************************************!*\
+  !*** ./public/pastProjects/ sync nonrecursive \.(png%7Cjpe?g%7Csvg)$ ***!
+  \***********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./abstractScene1.png": "./public/pastProjects/abstractScene1.png",
+	"./abstractScene2.png": "./public/pastProjects/abstractScene2.png",
+	"./abstractScene3.png": "./public/pastProjects/abstractScene3.png",
+	"./arcReactor.png": "./public/pastProjects/arcReactor.png",
+	"./ashrockLogo.png": "./public/pastProjects/ashrockLogo.png",
+	"./columns.png": "./public/pastProjects/columns.png",
+	"./cubeWorld.png": "./public/pastProjects/cubeWorld.png",
+	"./glassSphere.png": "./public/pastProjects/glassSphere.png",
+	"./hexagons.png": "./public/pastProjects/hexagons.png",
+	"./icosaedron.png": "./public/pastProjects/icosaedron.png",
+	"./neonF.png": "./public/pastProjects/neonF.png",
+	"./neonT.png": "./public/pastProjects/neonT.png",
+	"./particleVortex.png": "./public/pastProjects/particleVortex.png",
+	"./pendulums.png": "./public/pastProjects/pendulums.png",
+	"./processor.png": "./public/pastProjects/processor.png",
+	"./ring.png": "./public/pastProjects/ring.png",
+	"./room.png": "./public/pastProjects/room.png",
+	"./soundVisualizer.png": "./public/pastProjects/soundVisualizer.png",
+	"./sun.png": "./public/pastProjects/sun.png",
+	"./sun80.png": "./public/pastProjects/sun80.png",
+	"./synth.png": "./public/pastProjects/synth.png",
+	"./warpedWorld.png": "./public/pastProjects/warpedWorld.png"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./public/pastProjects sync \\.(png%7Cjpe?g%7Csvg)$";
 
 /***/ }),
 
