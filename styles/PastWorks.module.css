@@ -2,6 +2,13 @@
     height: 100vh;
     min-height: 20em;
     background-color: var(--light-green);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1em;
+    padding: 1em;
 }
 
 .title {
@@ -9,6 +16,95 @@
     font-weight: bold;
 }
 
+.imageContainer {
+    height: 0;
+    width: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.imageContainer::before,
+.imageContainer::after {
+    width: min(2em, 2vw);
+    height: 100%;
+    content: "";
+
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.imageContainer::before {
+    background-image: linear-gradient(
+        to right,
+        var(--light-green),
+        transparent
+    );
+    left: 0;
+}
+
+.imageContainer::after {
+    background-image: linear-gradient(to left, var(--light-green), transparent);
+    right: 0;
+}
+
+.imagesSection1,
+.imagesSection2 {
+    height: 30%;
+
+    width: 100%;
+    flex: 1;
+
+    display: flex;
+    gap: 1em;
+}
+
+.imagesSection1 {
+    align-items: flex-start;
+    animation: slideToLeft 90s linear infinite;
+}
+
+.imagesSection2 {
+    align-items: flex-end;
+    flex-direction: row-reverse;
+
+    animation: slideToRight 90s linear infinite;
+}
+
+.imagesSection1 > *,
+.imagesSection2 > * {
+    border-radius: 0.5em;
+    box-shadow: 0 0 0.25em var(--dark-green);
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideToLeft {
+    0% {
+        transform: translateX(0, 0, 0);
+    }
+
+    100% {
+        transform: translateX(calc(calc(-100% - 1em) * var(--image-number)));
+    }
+}
+
+@keyframes slideToRight {
+    0% {
+        transform: translateX(0, 0, 0);
+    }
+
+    100% {
+        transform: translateX(calc(calc(100% + 1em) * (var(--image-number))));
+    }
+}
+
 .image {
-    max-width: 5em;
+    max-height: 100%;
+    display: inline;
 }

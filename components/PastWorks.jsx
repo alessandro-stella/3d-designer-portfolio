@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import styles from "../styles/PastWorks.module.css";
 
 export default function PastWorks() {
-    const [images, setImages] = useState([]);
+    const [imageCollection1, setImageCollection1] = useState([]);
+    const [imageCollection2, setImageCollection2] = useState([]);
 
     useEffect(() => {
         function importAll(r) {
@@ -37,40 +38,61 @@ export default function PastWorks() {
             )
         );
 
-        setImages(shuffleArray(serverImages));
+        serverImages = shuffleArray(serverImages);
+
+        const half = Math.ceil(serverImages.length / 2);
+
+        setImageCollection1(serverImages.splice(0, half));
+        setImageCollection2(serverImages.splice(-half));
     }, []);
 
     return (
         <div className={styles.main}>
             <div className={styles.title}>Some of my past works</div>
 
-            <div className={styles.imagesContainer}>
-                <div className={styles.imagesSection1}>
-                    {images.map(
-                        (image, index) =>
-                            index < images.length / 2 && (
-                                <img
-                                    className={styles.image}
-                                    key={index}
-                                    src={image.imageURL}
-                                    alt={image.imageALT}
-                                />
-                            )
-                    )}
+            <div className={styles.imageContainer}>
+                <div
+                    className={styles.imagesSection1}
+                    style={{ "--image-number": imageCollection1.length }}>
+                    {imageCollection1.map((image, index) => (
+                        <img
+                            className={styles.image}
+                            key={index}
+                            src={image.imageURL}
+                            alt={image.imageALT}
+                        />
+                    ))}
+                    {imageCollection1.map((image, index) => (
+                        <img
+                            className={styles.image}
+                            key={index}
+                            src={image.imageURL}
+                            alt={image.imageALT}
+                        />
+                    ))}
                 </div>
 
-                <div className={styles.imagesSection2}>
-                    {images.map(
-                        (image, index) =>
-                            index >= images.length / 2 && (
-                                <img
-                                    className={styles.image}
-                                    key={index}
-                                    src={image.imageURL}
-                                    alt={image.imageALT}
-                                />
-                            )
-                    )}
+                <div
+                    className={styles.imagesSection2}
+                    style={{
+                        "--image-number": imageCollection2.length,
+                    }}>
+                    {imageCollection2.map((image, index) => (
+                        <img
+                            className={styles.image}
+                            key={index}
+                            src={image.imageURL}
+                            alt={image.imageALT}
+                        />
+                    ))}
+                    {imageCollection2.map((image, index) => (
+                        <img
+                            className={styles.image}
+                            key={index}
+                            src={image.imageURL}
+                            alt={image.imageALT}
+                        />
+                    ))}
                 </div>
             </div>
         </div>
