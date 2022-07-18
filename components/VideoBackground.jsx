@@ -24,9 +24,9 @@ export default function VideoBackground() {
             className={styles.background}
             style={{ transform: `translateY(-${bottom}vh)` }}>
             <video ref={videoRef} muted playsInline disableRemotePlayback>
-                <source src="/videoBg.mp4" type="video/mp4" />
-                <source src="/videoBg.webm" type="video/webm" />
-                <source src="/videoBg.m4v" type="video/mp4" />
+                <source src="/homepage/videoBg.mp4" type="video/mp4" />
+                <source src="/homepage/videoBg.webm" type="video/webm" />
+                <source src="/homepage/videoBg.m4v" type="video/mp4" />
             </video>
 
             <div className={styles.arrowDown}></div>

@@ -1,16 +1,20 @@
 import styles from "../styles/Works.module.css";
 
 const allSectionsData = [
-    { title: "Sci-Fi", text: "/SciFiText.svg", image: "/SciFiImage.png" },
+    {
+        title: "Sci-Fi",
+        text: "/homepage/SciFiText.svg",
+        image: "/homepage/SciFiImage.png",
+    },
     {
         title: "Dynamic",
-        text: "/DynamicText.svg",
-        image: "/SoundVisualizer.png",
+        text: "/homepage/DynamicText.svg",
+        image: "/homepage/SoundVisualizer.png",
     },
     {
         title: "Abstract",
-        text: "/AbstractText.svg",
-        image: "/AbstractImage.png",
+        text: "/homepage/AbstractText.svg",
+        image: "/homepage/AbstractImage.png",
     },
 ];
 
@@ -27,7 +31,6 @@ export default function WorkSection({ index, opacity }) {
                     alt={sectionData.title}
                 />
                 <div className={styles.headDown}>models</div>
-
             </div>
 
             <div className={styles.body}>
