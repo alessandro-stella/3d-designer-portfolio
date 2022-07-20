@@ -48,7 +48,6 @@ export default function PastWorks() {
         setImageCollection1(serverImages.splice(0, half));
         setImageCollection2(serverImages.splice(-half));
 
-        // eslint-disable-next-line react-hooks/exhaustive-deps
         calculateSpeedMultiplier();
     }, []);
 

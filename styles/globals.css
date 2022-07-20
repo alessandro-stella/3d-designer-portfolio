@@ -12,7 +12,7 @@
     --green: #00ffc3;
     --blue: #1affff;
 
-    --dark-green: hsl(166, 100%, 2%);
+    --dark-green: rgb(0, 10, 8);
     --dark-blue: hsl(180, 100%, 2%);
 
     --light-green: hsl(166, 100%, 98%);
@@ -47,6 +47,26 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
-    text-decoration: underline;
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--green) var(--dark-green);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--dark-green);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to top, var(--blue), var(--green));
+    border-radius: 10px;
+    border: 3px solid var(--dark-green);
 }

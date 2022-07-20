@@ -23,7 +23,7 @@ export default function PersonalInfo() {
             className={styles.main}
             style={{ "--title-opacity": titleOpacity }}>
             <div className={styles.title}>
-                Hi, <span>sup3r</span> here!
+                Hi, <span>SUP3R</span> is here!
             </div>
 
             <div className={styles.body}>
@@ -31,12 +31,12 @@ export default function PersonalInfo() {
                     className={styles.info}
                     style={{ "--section1-opacity": section1Opacity }}>
                     <div className={styles.sectionTitle}>
-                        Some info about me:
+                        Some info about me
                     </div>
 
                     <div className={styles.textSection}>
-                        I&apos;m an italian high school student, currently aspiring
-                        web developer and 3d modeler
+                        I&apos;m an italian high school student, currently
+                        aspiring web developer and 3d modeler
                     </div>
 
                     <div className={styles.textSection}>
@@ -56,7 +56,7 @@ export default function PersonalInfo() {
                     className={styles.pastCollaborations}
                     style={{ "--section2-opacity": section2Opacity }}>
                     <div className={styles.sectionTitle}>
-                        Past collaborations:
+                        Past collaborations
                     </div>
 
                     <div className={styles.textSection}>

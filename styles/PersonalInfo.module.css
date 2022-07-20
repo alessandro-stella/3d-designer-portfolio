@@ -37,8 +37,8 @@
 }
 
 .title span {
-    padding-left: 3px;
-    padding-top: 3px;
+    display: inline-block;
+    margin-top: 0.25em;
 
     background-color: var(--green);
     background-image: linear-gradient(to right, var(--green), var(--blue));
