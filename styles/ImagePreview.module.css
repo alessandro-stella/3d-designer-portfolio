@@ -67,14 +67,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 0.5em;
 
-    padding: 2em;
+    padding: 1.5em;
     color: #fff;
 }
 
 .headUp,
 .headDown {
-    background-color: red;
+    font-size: 2em;
 }
 
 .headText {
@@ -128,6 +129,14 @@
     .head {
         height: 30%;
         width: 100%;
+    }
+
+    .headText {
+        height: 0;
+        flex: 1;
+        width: 100%;
+
+        display: inline;
     }
 
     .body {

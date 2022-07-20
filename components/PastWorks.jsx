@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import styles from "../styles/PastWorks.module.css";
+import useWindowSize from "../useWindowSize";
 
 export default function PastWorks() {
     const [imageCollection1, setImageCollection1] = useState([]);
     const [imageCollection2, setImageCollection2] = useState([]);
+    const [width, height] = useWindowSize();
+    const [speedMultiplier, setSpeedMultiplier] = useState(1);
 
     useEffect(() => {
         function importAll(r) {
@@ -44,7 +47,20 @@ export default function PastWorks() {
 
         setImageCollection1(serverImages.splice(0, half));
         setImageCollection2(serverImages.splice(-half));
+
+        calculateSpeedMultiplier();
     }, []);
+
+    useEffect(() => {
+        calculateSpeedMultiplier();
+    }, [width]);
+
+    function calculateSpeedMultiplier() {
+        let normalWidth = 1920;
+        let ratio = width / normalWidth;
+
+        setSpeedMultiplier(ratio);
+    }
 
     return (
         <div className={styles.main}>
@@ -53,7 +69,10 @@ export default function PastWorks() {
             <div className={styles.imageContainer}>
                 <div
                     className={styles.imagesSection1}
-                    style={{ "--image-number": imageCollection1.length }}>
+                    style={{
+                        "--image-number": imageCollection1.length,
+                        "--speed-multiplier": speedMultiplier,
+                    }}>
                     {imageCollection1.map((image, index) => (
                         <img
                             className={styles.image}
@@ -76,6 +95,7 @@ export default function PastWorks() {
                     className={styles.imagesSection2}
                     style={{
                         "--image-number": imageCollection2.length,
+                        "--speed-multiplier": speedMultiplier,
                     }}>
                     {imageCollection2.map((image, index) => (
                         <img

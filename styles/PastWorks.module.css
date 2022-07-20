@@ -8,17 +8,22 @@
     align-items: center;
 
     gap: 1em;
-    padding: 1em;
+    padding: 2em 0;
 }
 
 .title {
-    font-size: 2em;
+    font-family: "blankaregular", "Courier New", Courier, monospace;
+    font-size: 3.5em;
     font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1em;
+
+    text-align: center;
 }
 
 .imageContainer {
-    height: 0;
     width: 100%;
+    height: 0;
     flex: 1;
 
     display: flex;
@@ -27,6 +32,8 @@
 
     overflow: hidden;
     position: relative;
+
+    user-select: none;
 }
 
 .imageContainer::before,
@@ -58,35 +65,40 @@
 .imagesSection2 {
     height: 30%;
 
-    width: 100%;
     flex: 1;
 
     display: flex;
-    gap: 1em;
+    animation-fill-mode: forwards;
 }
 
 .imagesSection1 {
     align-items: flex-start;
-    animation: slideToLeft 90s linear infinite;
 }
 
 .imagesSection2 {
     align-items: flex-end;
     flex-direction: row-reverse;
-
-    animation: slideToRight 90s linear infinite;
 }
 
 .imagesSection1 > *,
 .imagesSection2 > * {
     border-radius: 0.5em;
     box-shadow: 0 0 0.25em var(--dark-green);
-    animation-fill-mode: forwards;
+
+    margin: 0 0.5em;
+}
+
+.imagesSection1 > * {
+    animation: slideToLeft calc(120s * var(--speed-multiplier)) linear infinite;
+}
+
+.imagesSection2 > * {
+    animation: slideToRight calc(120s * var(--speed-multiplier)) linear infinite;
 }
 
 @keyframes slideToLeft {
     0% {
-        transform: translateX(0, 0, 0);
+        transform: translateX(0);
     }
 
     100% {
@@ -96,7 +108,7 @@
 
 @keyframes slideToRight {
     0% {
-        transform: translateX(0, 0, 0);
+        transform: translateX(0);
     }
 
     100% {
