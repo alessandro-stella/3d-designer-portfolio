@@ -35,7 +35,7 @@ export default function PersonalInfo() {
                     </div>
 
                     <div className={styles.textSection}>
-                        I'm an italian high school student, currently aspiring
+                        I&apos;m an italian high school student, currently aspiring
                         web developer and 3d modeler
                     </div>
 
@@ -63,7 +63,7 @@ export default function PersonalInfo() {
                         Collaborated with the AMV youtuber{" "}
                         <a
                             href="https://www.youtube.com/channel/UCR5puPTupYaB4m-v-LR7IcA"
-                            noreferrer
+                            rel="noreferrer"
                             target="_blank">
                             AshRock
                         </a>
@@ -73,14 +73,14 @@ export default function PersonalInfo() {
 
                     <div className={styles.textSection}>
                         Modeling of logos and consultation for some models of
-                        structures for the Italian community of roblox "
+                        structures for the Italian community of roblox &quot;
                         <a
                             href="https://www.roblox.com/groups/5303121/Esercito-Italiano#!/about"
-                            noreferrer
+                            rel="noreferrer"
                             target="_blank">
                             Esercito Italiano
                         </a>
-                        ", one of the largest and most active in Italy
+                        &quot;, one of the largest and most active in Italy
                     </div>
                 </div>
             </div>
