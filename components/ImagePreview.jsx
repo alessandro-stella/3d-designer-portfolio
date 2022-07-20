@@ -16,16 +16,6 @@ export default function ImagePreview() {
             return;
         }
 
-        if (scrollY >= window.innerHeight) {
-            checkOpacities(scrollY / innerHeight);
-        }
-    }, []);
-
-    useEffect(() => {
-        if (scrollY === "initial") {
-            return;
-        }
-
         if (scrollY >= window.innerHeight * 1.2) {
             checkOpacities(scrollY / innerHeight);
         }
