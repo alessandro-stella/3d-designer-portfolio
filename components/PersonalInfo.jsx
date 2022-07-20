@@ -1,36 +1,89 @@
+import { useEffect, useState } from "react";
+import { useSiteContext } from "../SiteContext";
 import styles from "../styles/PersonalInfo.module.css";
 
 export default function PersonalInfo() {
+    const scrollY = useSiteContext();
+    const [titleOpacity, setTitleOpacity] = useState(0);
+    const [section1Opacity, setSection1Opacity] = useState(0);
+    const [section2Opacity, setSection2Opacity] = useState(0);
+
+    useEffect(() => {
+        const titleValue = scrollY / (window.innerHeight / 1.3);
+        const section1Value = titleValue * 0.9;
+        const section2Value = titleValue * 0.8;
+
+        setTitleOpacity(titleValue >= 1 ? 1 : titleValue);
+        setSection1Opacity(section1Value >= 1 ? 1 : section1Value);
+        setSection2Opacity(section2Value >= 1 ? 1 : section2Value);
+    }, [scrollY]);
+
     return (
-        <div className={styles.main}>
-            <h1>personal info</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus a optio magnam architecto porro fugiat laudantium
-                provident exercitationem quae unde quibusdam, tempora nihil
-                voluptate nobis autem commodi saepe rem officiis laborum
-                pariatur eveniet quisquam, vero reprehenderit dolorum. Accusamus
-                esse numquam dolor nihil iste obcaecati enim eaque in quas sint
-                dolorum nesciunt sit atque beatae velit tempore aperiam
-                perspiciatis totam iusto, cupiditate ab iure? Voluptatum saepe
-                earum adipisci, obcaecati corporis, nemo, nulla laboriosam
-                quidem consequatur quae architecto? Error corporis beatae magni,
-                molestias quae obcaecati incidunt vero numquam perferendis
-                quisquam facere harum odit tempora, vitae eos suscipit accusamus
-                maiores ullam nisi magnam. Nostrum eius beatae error doloribus
-                sint? Vitae reiciendis doloribus officia, autem facere pariatur
-                eaque magnam minima omnis neque cum et, natus nobis? Inventore
-                nam velit ex, iste repudiandae consectetur omnis distinctio aut
-                minus. Suscipit, in hic! Nostrum nesciunt, reiciendis facilis a
-                corporis iure iste atque eaque esse dolores officia officiis
-                mollitia? Culpa consectetur sapiente, sunt recusandae velit
-                suscipit quia hic accusantium, tenetur pariatur aperiam
-                repellendus numquam ad officiis laborum neque odio fuga
-                consequatur tempora voluptas! Dolorem veniam inventore dolorum
-                accusamus ullam facilis, beatae sunt placeat id laborum,
-                repellendus nulla optio dolore dignissimos eos illo in. Eos
-                reiciendis ad placeat ea!
-            </p>
+        <div
+            className={styles.main}
+            style={{ "--title-opacity": titleOpacity }}>
+            <div className={styles.title}>
+                Hi, <span>sup3r</span> here!
+            </div>
+
+            <div className={styles.body}>
+                <div
+                    className={styles.info}
+                    style={{ "--section1-opacity": section1Opacity }}>
+                    <div className={styles.sectionTitle}>
+                        Some info about me:
+                    </div>
+
+                    <div className={styles.textSection}>
+                        I'm an italian high school student, currently aspiring
+                        web developer and 3d modeler
+                    </div>
+
+                    <div className={styles.textSection}>
+                        Skilled in 3d modeling with Blender, in particular
+                        sci-fi, abstract, low-poly models and creation of
+                        textures. Experience in exporting models for Roblox
+                        Studio
+                    </div>
+
+                    <div className={styles.textSection}>
+                        Programmer, mainly in Javascript, with experience of
+                        working with NodeJS, Express and React
+                    </div>
+                </div>
+
+                <div
+                    className={styles.pastCollaborations}
+                    style={{ "--section2-opacity": section2Opacity }}>
+                    <div className={styles.sectionTitle}>
+                        Past collaborations:
+                    </div>
+
+                    <div className={styles.textSection}>
+                        Collaborated with the AMV youtuber{" "}
+                        <a
+                            href="https://www.youtube.com/channel/UCR5puPTupYaB4m-v-LR7IcA"
+                            noreferrer
+                            target="_blank">
+                            AshRock
+                        </a>
+                        , for which I created his channel logo, and helped in
+                        the various collaborations he did with other youtubers
+                    </div>
+
+                    <div className={styles.textSection}>
+                        Modeling of logos and consultation for some models of
+                        structures for the Italian community of roblox "
+                        <a
+                            href="https://www.roblox.com/groups/5303121/Esercito-Italiano#!/about"
+                            noreferrer
+                            target="_blank">
+                            Esercito Italiano
+                        </a>
+                        ", one of the largest and most active in Italy
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

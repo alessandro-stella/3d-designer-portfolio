@@ -93,9 +93,7 @@ export default function ImagePreview() {
         <div className={styles.main}>
             <div className={styles.backgroundContainer}>
                 <div className={styles.background}>
-                    <div className={styles.backgroundHead}>
-                        Experience in <span></span>{" "}
-                    </div>
+                    <div className={styles.backgroundHead}></div>
                     <div className={styles.backgroundBody}></div>
                 </div>
             </div>
