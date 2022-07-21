@@ -1,88 +1,110 @@
-import { createRef, useEffect, useRef, useState } from "react";
+import { createRef, isValidElement, useEffect, useRef, useState } from "react";
 import { useSiteContext } from "../SiteContext";
 import styles from "../styles/ImagePreview.module.css";
 import WorkSection from "./WorkSection";
+import anime from "animejs";
 
 export default function ImagePreview() {
     const { scrollY } = useSiteContext();
     const sections = [0, 1, 2];
 
+    const mainRef = useRef(null);
     const sectionsRef = useRef(sections.map(() => createRef()));
 
+    const [triggerAnimation1, setTriggerAnimation1] = useState("initial");
+    const [triggerAnimation2, setTriggerAnimation2] = useState("initial");
+    const [triggerAnimation3, setTriggerAnimation3] = useState("initial");
+
+    const [isFilled, setIsFilled] = useState(false);
+
     useEffect(() => {
+        let windowHeight = window.innerHeight;
+
         if (scrollY === "initial") {
             return;
         }
 
-        function isInViewport(element) {
-            const rect = element.getBoundingClientRect();
+        let top = mainRef.current.getBoundingClientRect().top;
 
-            return rect.top <= window.innerHeight / 1.5;
+        if (top <= windowHeight / 1.5) {
+            setTriggerAnimation1(false);
+            setTriggerAnimation2(false);
+            setTriggerAnimation3(false);
+
+            if (top < 0) {
+                if (top <= -windowHeight * 1.5) {
+                    if (isFilled) {
+                        return;
+                    }
+
+                    setIsFilled(true);
+                    enterAnimation("#section2");
+
+                    return;
+                }
+
+                if (!isFilled) {
+                    setIsFilled(true);
+                }
+
+                if (top <= -windowHeight) {
+                    setTriggerAnimation3(true);
+
+                    return;
+                }
+
+                setTriggerAnimation2(true);
+                return;
+            }
+
+            setTriggerAnimation1(true);
         }
-
-        console.log(isInViewport(sectionsRef.current[0].current));
     }, [scrollY]);
 
-    /* function checkOpacities(ratio) {
-        let opacity = 1;
+    useEffect(() => {
+        if (triggerAnimation1 === "initial" || !triggerAnimation1) return;
 
-        if (ratio < 2.2) {
-            opacity = ratio - 1.2;
+        enterAnimation("#section0");
+        exitAnimation("#section1");
+        exitAnimation("#section2");
+    }, [triggerAnimation1]);
 
-            if (opacity < 0.1) {
-                opacity = 0;
-            }
+    useEffect(() => {
+        if (triggerAnimation2 === "initial" || !triggerAnimation2) return;
 
-            if (opacity > 0.9) {
-                opacity = 1;
-            }
+        exitAnimation("#section0");
+        enterAnimation("#section1");
+        exitAnimation("#section2");
+    }, [triggerAnimation2]);
 
-            setSection1Opacity(opacity.toFixed(3));
-            return;
-        }
+    useEffect(() => {
+        if (triggerAnimation3 === "initial" || !triggerAnimation3) return;
 
-        if (ratio < 3.3) {
-            opacity = ratio - 2.3;
+        exitAnimation("#section0");
+        exitAnimation("#section1");
+        enterAnimation("#section2");
+    }, [triggerAnimation3]);
 
-            if (opacity < 0.1) {
-                opacity = 0;
-            }
-
-            if (opacity > 0.9) {
-                opacity = 1;
-            }
-
-            setSection1Opacity((1 - opacity).toFixed(3));
-            setSection2Opacity(opacity.toFixed(3));
-            return;
-        }
-
-        if (ratio < 4.4) {
-            opacity = ratio - 3.4;
-
-            if (opacity < 0.1) {
-                opacity = 0;
-            }
-
-            if (opacity > 0.9) {
-                opacity = 1;
-            }
-
-            setSection2Opacity((1 - opacity).toFixed(3));
-            setSection3Opacity(opacity.toFixed(3));
-            return;
-        }
-
-        setSection1Opacity(0);
-        setSection2Opacity(0);
-        setSection3Opacity(opacity);
+    function enterAnimation(targets) {
+        anime({
+            targets,
+            opacity: 1,
+            easing: "linear",
+            duration: 500,
+        });
     }
 
-    const passOpacity = (index) =>
-        [section1Opacity, section2Opacity, section3Opacity][index]; */
+    function exitAnimation(targets) {
+        anime({
+            targets,
+            opacity: 0,
+            easing: "linear",
+            duration: 500,
+        });
+    }
 
     return (
-        <div className={styles.main}>
+        <div ref={mainRef} className={styles.main}>
             <div className={styles.backgroundContainer}>
                 <div className={styles.background}>
                     <div className={styles.backgroundHead}></div>
@@ -96,7 +118,6 @@ export default function ImagePreview() {
                         key={singleSection}
                         index={singleSection}
                         refProp={sectionsRef.current[singleSection]}
-                        /* opacity={passOpacity(singleSection)} */
                     />
                 ))}
             </div>

@@ -172,8 +172,6 @@ export default function PastWorks() {
                         />
                     ))}
                 </div>
-
-                <div id="logo">test</div>
             </div>
         </div>
     );

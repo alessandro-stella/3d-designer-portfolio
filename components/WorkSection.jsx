@@ -22,7 +22,7 @@ export default function WorkSection({ index, refProp }) {
     const sectionData = allSectionsData[index];
 
     return (
-        <div ref={refProp} className={styles.section}>
+        <div id={`section${index}`} ref={refProp} className={styles.section}>
             <div className={styles.head}>
                 <div className={styles.headUp}>Skilled in</div>
                 <img
