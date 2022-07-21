@@ -65,6 +65,10 @@ export default function ImagePreview() {
         if (triggerAnimation1 === "initial" || !triggerAnimation1) return;
 
         enterAnimation("#section0");
+
+        anime.remove("#section1");
+        anime.remove("#section2");
+
         exitAnimation("#section1");
         exitAnimation("#section2");
     }, [triggerAnimation1]);
@@ -72,25 +76,35 @@ export default function ImagePreview() {
     useEffect(() => {
         if (triggerAnimation2 === "initial" || !triggerAnimation2) return;
 
-        exitAnimation("#section0");
         enterAnimation("#section1");
+
+        anime.remove("#section0");
+        anime.remove("#section2");
+
+        exitAnimation("#section0");
         exitAnimation("#section2");
     }, [triggerAnimation2]);
 
     useEffect(() => {
         if (triggerAnimation3 === "initial" || !triggerAnimation3) return;
 
+        enterAnimation("#section2");
+
+        anime.remove("#section0");
+        anime.remove("#section1");
+
         exitAnimation("#section0");
         exitAnimation("#section1");
-        enterAnimation("#section2");
     }, [triggerAnimation3]);
 
     function enterAnimation(targets) {
         anime({
             targets,
             opacity: 1,
+            translateY: [30, 0],
             easing: "linear",
             duration: 500,
+            delay: 300,
         });
     }
 
@@ -98,6 +112,7 @@ export default function ImagePreview() {
         anime({
             targets,
             opacity: 0,
+            translateY: [0, 30],
             easing: "linear",
             duration: 500,
         });

@@ -56,7 +56,7 @@ export default function PersonalInfo() {
         anime({
             targets: elementId,
             easing: "linear",
-            translateY: [50, 0],
+            translateY: [30, 0],
             opacity: 1,
             duration: 500,
         });
