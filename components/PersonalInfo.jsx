@@ -1,35 +1,75 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSiteContext } from "../SiteContext";
 import styles from "../styles/PersonalInfo.module.css";
+import anime from "animejs";
 
 export default function PersonalInfo() {
-    const scrollY = useSiteContext();
-    const [titleOpacity, setTitleOpacity] = useState(0);
-    const [section1Opacity, setSection1Opacity] = useState(0);
-    const [section2Opacity, setSection2Opacity] = useState(0);
+    const { scrollY } = useSiteContext();
+
+    const titleRef = useRef(null);
+    const infoRef = useRef(null);
+    const collabsRef = useRef(null);
+
+    const [titleAnimation, setTitleAnimation] = useState(false);
+    const [infoAnimation, setInfoAnimation] = useState(false);
+    const [collabsAnimation, setCollabsAnimation] = useState(false);
 
     useEffect(() => {
-        const titleValue = scrollY / (window.innerHeight / 1.3);
-        const section1Value = titleValue * 0.9;
-        const section2Value = titleValue * 0.8;
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
 
-        setTitleOpacity(titleValue >= 1 ? 1 : titleValue);
-        setSection1Opacity(section1Value >= 1 ? 1 : section1Value);
-        setSection2Opacity(section2Value >= 1 ? 1 : section2Value);
+            return rect.top <= window.innerHeight - element.offsetHeight / 3;
+        }
+
+        if (!titleAnimation && isInViewport(titleRef.current)) {
+            setTitleAnimation(true);
+        }
+
+        if (!infoAnimation && isInViewport(infoRef.current)) {
+            setInfoAnimation(true);
+        }
+
+        if (!collabsAnimation && isInViewport(collabsRef.current)) {
+            setCollabsAnimation(true);
+        }
     }, [scrollY]);
 
+    useEffect(() => {
+        if (!titleAnimation) return;
+
+        triggerAnimation("#title");
+    }, [titleAnimation]);
+
+    useEffect(() => {
+        if (!infoAnimation) return;
+
+        triggerAnimation("#info");
+    }, [infoAnimation]);
+
+    useEffect(() => {
+        if (!collabsAnimation) return;
+
+        triggerAnimation("#collabs");
+    }, [collabsAnimation]);
+
+    function triggerAnimation(elementId) {
+        anime({
+            targets: elementId,
+            easing: "linear",
+            translateY: [50, 0],
+            opacity: 1,
+            duration: 500,
+        });
+    }
+
     return (
-        <div
-            className={styles.main}
-            style={{ "--title-opacity": titleOpacity }}>
-            <div className={styles.title}>
+        <div className={styles.main}>
+            <div id="title" ref={titleRef} className={styles.title}>
                 Hi, <span>SUP3R</span> is here!
             </div>
 
             <div className={styles.body}>
-                <div
-                    className={styles.info}
-                    style={{ "--section1-opacity": section1Opacity }}>
+                <div id="info" ref={infoRef} className={styles.info}>
                     <div className={styles.sectionTitle}>
                         Some info about me
                     </div>
@@ -52,9 +92,7 @@ export default function PersonalInfo() {
                     </div>
                 </div>
 
-                <div
-                    className={styles.pastCollaborations}
-                    style={{ "--section2-opacity": section2Opacity }}>
+                <div id="collabs" ref={collabsRef} className={styles.collabs}>
                     <div className={styles.sectionTitle}>
                         Past collaborations
                     </div>

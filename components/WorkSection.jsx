@@ -18,11 +18,11 @@ const allSectionsData = [
     },
 ];
 
-export default function WorkSection({ index, opacity }) {
+export default function WorkSection({ index, refProp }) {
     const sectionData = allSectionsData[index];
 
     return (
-        <div className={styles.section} style={{ opacity }}>
+        <div ref={refProp} className={styles.section}>
             <div className={styles.head}>
                 <div className={styles.headUp}>Skilled in</div>
                 <img

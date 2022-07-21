@@ -5,7 +5,7 @@ import styles from "../styles/VideoBackground.module.css";
 export default function VideoBackground() {
     const [bottom, setBottom] = useState(0);
     const videoRef = useRef(null);
-    const scrollY = useSiteContext();
+    const { scrollY } = useSiteContext();
 
     useEffect(() => {
         setTimeout(() => {

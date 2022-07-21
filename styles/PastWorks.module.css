@@ -67,7 +67,7 @@
     flex: 1;
 
     display: flex;
-    animation-fill-mode: forwards;
+    gap: 1em;
 }
 
 .imagesSection1 {
@@ -83,36 +83,6 @@
 .imagesSection2 > * {
     border-radius: 0.5em;
     box-shadow: 0 0 0.25em var(--dark-green);
-
-    margin: 0 0.5em;
-}
-
-.imagesSection1 > * {
-    animation: slideToLeft calc(120s * var(--speed-multiplier)) linear infinite;
-}
-
-.imagesSection2 > * {
-    animation: slideToRight calc(120s * var(--speed-multiplier)) linear infinite;
-}
-
-@keyframes slideToLeft {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(calc(calc(-100% - 1em) * var(--image-number)));
-    }
-}
-
-@keyframes slideToRight {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(calc(calc(100% + 1em) * (var(--image-number))));
-    }
 }
 
 .image {

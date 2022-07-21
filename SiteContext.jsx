@@ -10,6 +10,7 @@ const Context = createContext({ scrollY: "initial" });
 
 export function SiteContext({ children }) {
     const [scrollY, setScrollY] = useState("initial");
+    const [fontSize, setFontSize] = useState(16);
 
     useEffect(() => {
         if (scrollY === "initial") {
@@ -29,7 +30,11 @@ export function SiteContext({ children }) {
         };
     }, [handleScroll]);
 
-    return <Context.Provider value={scrollY}>{children}</Context.Provider>;
+    return (
+        <Context.Provider value={{ scrollY, fontSize, setFontSize }}>
+            {children}
+        </Context.Provider>
+    );
 }
 
 export function useSiteContext() {

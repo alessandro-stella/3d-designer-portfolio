@@ -6,11 +6,31 @@ import PersonalInfo from "../components/PersonalInfo";
 import ImagePreview from "../components/ImagePreview";
 import ContactMe from "../components/ContactMe";
 import PastWorks from "../components/PastWorks";
-import Loader from "../components/Loader";
+import { useSiteContext } from "../SiteContext";
+import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
+    const { setFontSize } = useSiteContext();
+    const [gotFontSize, setGotFontSize] = useState(false);
+    const mainPageRef = useRef(null);
+
+    useEffect(() => {
+        if (gotFontSize) {
+            return;
+        }
+
+        setGotFontSize(true);
+
+        setFontSize(
+            +window
+                .getComputedStyle(mainPageRef.current, null)
+                .getPropertyValue("font-size")
+                .slice(0, -2)
+        );
+    }, []);
+
     return (
-        <div className={styles.container}>
+        <div className={styles.container} ref={mainPageRef}>
             <Head>
                 <title>Sup3r_ Portfolio</title>
                 <meta

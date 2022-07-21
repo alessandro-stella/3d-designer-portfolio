@@ -1,12 +1,22 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "../styles/PastWorks.module.css";
 import useWindowSize from "../useWindowSize";
+import anime from "animejs";
+import { useSiteContext } from "../SiteContext";
 
 export default function PastWorks() {
+    const { fontSize } = useSiteContext();
+
+    const imageContainer1Ref = useRef(null);
+    const imageContainer2Ref = useRef(null);
+
     const [imageCollection1, setImageCollection1] = useState([]);
     const [imageCollection2, setImageCollection2] = useState([]);
+
     const [width, height] = useWindowSize();
-    const [speedMultiplier, setSpeedMultiplier] = useState(1);
+
+    const [imageLoaded, setImageLoaded] = useState(false);
+    const [imageWidth, setImageWidth] = useState(0);
 
     useEffect(() => {
         function importAll(r) {
@@ -47,19 +57,69 @@ export default function PastWorks() {
 
         setImageCollection1(serverImages.splice(0, half));
         setImageCollection2(serverImages.splice(-half));
-
-        calculateSpeedMultiplier();
     }, []);
 
     useEffect(() => {
-        calculateSpeedMultiplier();
-    }, [width]);
+        updateImageContainerWidth();
+    }, [width, height]);
 
-    function calculateSpeedMultiplier() {
-        let normalWidth = 1920;
-        let ratio = width / normalWidth;
+    useEffect(() => {
+        if (imageLoaded === false) return;
 
-        setSpeedMultiplier(ratio);
+        updateImageContainerWidth();
+    }, [imageLoaded]);
+
+    useEffect(() => {
+        if (imageWidth === 0) return;
+
+        let translateX = (imageWidth + fontSize) * imageCollection1.length;
+
+        anime.remove("#imageContainer1");
+
+        anime({
+            autoplay: true,
+            targets: "#imageContainer1",
+            translateX: [0, -translateX],
+            loop: true,
+            duration: 120000,
+            easing: "linear",
+        });
+
+        anime.remove("#imageContainer2");
+
+        anime({
+            autoplay: true,
+            targets: "#imageContainer2",
+            translateX: [0, translateX],
+            loop: true,
+            duration: 120000,
+            easing: "linear",
+        });
+    }, [imageWidth]);
+
+    function handleImageLoading(imageIndex) {
+        if (!imageLoaded) {
+            setImageLoaded(imageIndex);
+        }
+    }
+
+    function updateImageContainerWidth() {
+        if (imageLoaded === false) return;
+
+        let collection = +imageLoaded[0];
+        let image = +imageLoaded[2];
+
+        let collections = [
+            imageContainer1Ref.current,
+            imageContainer2Ref.current,
+        ];
+
+        let newImageWidth =
+            collections[collection].childNodes[image].offsetWidth;
+
+        if (newImageWidth != imageWidth) {
+            setImageWidth(newImageWidth);
+        }
     }
 
     return (
@@ -68,13 +128,12 @@ export default function PastWorks() {
 
             <div className={styles.imageContainer}>
                 <div
-                    className={styles.imagesSection1}
-                    style={{
-                        "--image-number": imageCollection1.length,
-                        "--speed-multiplier": speedMultiplier,
-                    }}>
+                    id="imageContainer1"
+                    ref={imageContainer1Ref}
+                    className={styles.imagesSection1}>
                     {imageCollection1.map((image, index) => (
                         <img
+                            onLoad={() => handleImageLoading(0 + "-" + index)}
                             className={styles.image}
                             key={index}
                             src={image.imageURL}
@@ -92,13 +151,12 @@ export default function PastWorks() {
                 </div>
 
                 <div
-                    className={styles.imagesSection2}
-                    style={{
-                        "--image-number": imageCollection2.length,
-                        "--speed-multiplier": speedMultiplier,
-                    }}>
+                    id="imageContainer2"
+                    ref={imageContainer2Ref}
+                    className={styles.imagesSection2}>
                     {imageCollection2.map((image, index) => (
                         <img
+                            onLoad={() => handleImageLoading(1 + "-" + index)}
                             className={styles.image}
                             key={index}
                             src={image.imageURL}
@@ -114,6 +172,8 @@ export default function PastWorks() {
                         />
                     ))}
                 </div>
+
+                <div id="logo">test</div>
             </div>
         </div>
     );

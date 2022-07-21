@@ -1,27 +1,29 @@
-import { useEffect, useState } from "react";
+import { createRef, useEffect, useRef, useState } from "react";
 import { useSiteContext } from "../SiteContext";
 import styles from "../styles/ImagePreview.module.css";
 import WorkSection from "./WorkSection";
 
 export default function ImagePreview() {
-    const scrollY = useSiteContext();
+    const { scrollY } = useSiteContext();
     const sections = [0, 1, 2];
 
-    const [section1Opacity, setSection1Opacity] = useState(0);
-    const [section2Opacity, setSection2Opacity] = useState(0);
-    const [section3Opacity, setSection3Opacity] = useState(0);
+    const sectionsRef = useRef(sections.map(() => createRef()));
 
     useEffect(() => {
         if (scrollY === "initial") {
             return;
         }
 
-        if (scrollY >= window.innerHeight * 1.2) {
-            checkOpacities(scrollY / innerHeight);
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+
+            return rect.top <= window.innerHeight / 1.5;
         }
+
+        console.log(isInViewport(sectionsRef.current[0].current));
     }, [scrollY]);
 
-    function checkOpacities(ratio) {
+    /* function checkOpacities(ratio) {
         let opacity = 1;
 
         if (ratio < 2.2) {
@@ -77,7 +79,7 @@ export default function ImagePreview() {
     }
 
     const passOpacity = (index) =>
-        [section1Opacity, section2Opacity, section3Opacity][index];
+        [section1Opacity, section2Opacity, section3Opacity][index]; */
 
     return (
         <div className={styles.main}>
@@ -93,7 +95,8 @@ export default function ImagePreview() {
                     <WorkSection
                         key={singleSection}
                         index={singleSection}
-                        opacity={passOpacity(singleSection)}
+                        refProp={sectionsRef.current[singleSection]}
+                        /* opacity={passOpacity(singleSection)} */
                     />
                 ))}
             </div>
