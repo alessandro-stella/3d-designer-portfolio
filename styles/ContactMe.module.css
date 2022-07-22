@@ -1,20 +1,26 @@
 .main {
-    height: 100vh;
-    min-height: 20em;
+    min-height: 100vh;
+    height: fit-content;
     background-color: var(--dark-green);
     color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
 }
 
 .inner {
-    height: 100%;
+    height: 1px;
+    flex: 1;
+
     width: min(100%, 60em);
 
-    padding: 1em;
+    padding: 2em;
 
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1em;
 }
 
@@ -22,20 +28,70 @@
     font-size: 3em;
     font-family: "blankaregular", "Courier New", Courier, monospace;
     text-align: center;
-}
-
-.inputField {
-    padding: 0.5em;
-
-    background-color: transparent;
-    color: var(--text-color);
-
-    border: 1px solid var(--text-color);
-    border-radius: 0.25em;
+    letter-spacing: 2px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+
+.inputField {
+    width: 100%;
+    padding: 0.5em 1em;
+
+    background-color: transparent;
+    color: var(--text-color);
+
+    border: 2px solid var(--text-color);
+    border-radius: 100vmax;
+}
+
+.submit {
+    background-color: transparent;
+    color: var(--text-color);
+
+    width: min-content;
+    margin: auto;
+    padding: 1em 2em;
+    min-width: 50%;
+
+    border: 2px solid var(--text-color);
+    border-radius: 100vmax;
+
+    outline: none;
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.submit:hover {
+    background-color: var(--text-color);
+    color: var(--dark-green);
+}
+
+.links {
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    margin-bottom: 1em;
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.discord {
+    margin-top: 1em;
+    font-size: 2em;
+    text-align: center;
+
+    position: relative;
 }
