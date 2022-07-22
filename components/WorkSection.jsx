@@ -18,11 +18,11 @@ const allSectionsData = [
     },
 ];
 
-export default function WorkSection({ index, refProp }) {
+export default function WorkSection({ index }) {
     const sectionData = allSectionsData[index];
 
     return (
-        <div id={`section${index}`} ref={refProp} className={styles.section}>
+        <div id={`section${index}`} className={styles.section}>
             <div className={styles.head}>
                 <div className={styles.headUp}>Skilled in</div>
                 <img

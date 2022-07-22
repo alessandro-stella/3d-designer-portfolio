@@ -9,13 +9,13 @@ export default function ImagePreview() {
     const sections = [0, 1, 2];
 
     const mainRef = useRef(null);
-    const sectionsRef = useRef(sections.map(() => createRef()));
 
     const [triggerAnimation1, setTriggerAnimation1] = useState("initial");
     const [triggerAnimation2, setTriggerAnimation2] = useState("initial");
     const [triggerAnimation3, setTriggerAnimation3] = useState("initial");
 
     const [isFilled, setIsFilled] = useState(false);
+    const [isOut, setIsOut] = useState(false);
 
     useEffect(() => {
         let windowHeight = window.innerHeight;
@@ -38,27 +38,35 @@ export default function ImagePreview() {
                     }
 
                     setIsFilled(true);
+                    setIsOut(true);
                     enterAnimation("#section2");
 
                     return;
                 }
 
-                if (!isFilled) {
-                    setIsFilled(true);
-                }
-
                 if (top <= -windowHeight) {
-                    setTriggerAnimation3(true);
+                    if (!isOut) {
+                        setTriggerAnimation3(true);
+                        setIsOut(true);
+                    }
 
                     return;
                 }
 
-                setTriggerAnimation2(true);
-                return;
+                if (top <= -windowHeight / 2) {
+                    setTriggerAnimation2(true);
+                    setIsOut(false);
+
+                    return;
+                }
             }
 
             setTriggerAnimation1(true);
+            setIsOut(false);
+            return;
         }
+
+        setIsOut(true);
     }, [scrollY]);
 
     useEffect(() => {
@@ -129,11 +137,7 @@ export default function ImagePreview() {
 
             <div className={styles.sectionContainer}>
                 {sections.map((singleSection) => (
-                    <WorkSection
-                        key={singleSection}
-                        index={singleSection}
-                        refProp={sectionsRef.current[singleSection]}
-                    />
+                    <WorkSection key={singleSection} index={singleSection} />
                 ))}
             </div>
         </div>
