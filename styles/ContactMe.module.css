@@ -4,3 +4,38 @@
     background-color: var(--dark-green);
     color: var(--text-color);
 }
+
+.inner {
+    height: 100%;
+    width: min(100%, 60em);
+
+    padding: 1em;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.title {
+    font-size: 3em;
+    font-family: "blankaregular", "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+.inputField {
+    padding: 0.5em;
+
+    background-color: transparent;
+    color: var(--text-color);
+
+    border: 1px solid var(--text-color);
+    border-radius: 0.25em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
