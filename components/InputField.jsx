@@ -17,7 +17,8 @@ export default function InputField({
                     value={value}
                     onChange={(e) => setValue(e.target.value)}
                     placeholder={label}
-                    style={{ resize: "none", borderRadius: "1em" }}></textarea>
+                    style={{ resize: "none", borderRadius: "1em" }}
+                    required></textarea>
             ) : (
                 <input
                     className={styles.inputField}
@@ -25,6 +26,7 @@ export default function InputField({
                     value={value}
                     onChange={(e) => setValue(e.target.value)}
                     placeholder={label}
+                    required
                 />
             )}
         </>

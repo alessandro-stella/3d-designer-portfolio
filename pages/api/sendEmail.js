@@ -2,7 +2,8 @@ const mail = require("@sendgrid/mail");
 mail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export default (req, res) => {
-    const body = req.body;
+    const body = JSON.parse(req.body);
+    console.log(body.username);
 
     const message = `
     Name: ${body.username}\r\n
@@ -20,11 +21,11 @@ export default (req, res) => {
 
     try {
         mail.send(data);
-        return res.status(200).json({
+        return res.status(201).json({
             msg: "email sent successfully",
         });
     } catch (err) {
-        return res.status(200).json({
+        return res.status(400).json({
             err,
         });
     }
