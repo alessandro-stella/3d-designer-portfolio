@@ -10,8 +10,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "deploy": "git add . && git commit -m \"site update\" && git push -f origin main",
-        "heroku-postbuild": "npm run build"
+        "deploy": "git add . && git commit -m \"site update\" && git push -f origin main"
     },
     "dependencies": {
         "@sendgrid/mail": "^7.7.0",

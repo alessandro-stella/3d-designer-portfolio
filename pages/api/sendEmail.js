@@ -1,7 +1,7 @@
 const mail = require("@sendgrid/mail");
 mail.setApiKey(process.env.SENDGRID_API_KEY);
 
-export default (req, res) => {
+const sendEmail = (req, res) => {
     const body = JSON.parse(req.body);
     console.log(body.username);
 
@@ -30,3 +30,5 @@ export default (req, res) => {
         });
     }
 };
+
+export default sendEmail;
